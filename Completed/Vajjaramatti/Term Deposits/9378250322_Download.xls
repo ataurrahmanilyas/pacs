@@ -1,0 +1,241 @@
+PRODUCTCODE	PRODUCTDESCRIPTION	ADMISSIONNO	ACCOUNTNO	OPERATIONTYPECODE	OPERATIONTYPEDESC	DEPOSITDATE	DEPOSITAMOUNT	TERMINDAYS	TERMINMONTHS	RATEOFINTEREST	MATURITYDATE	MATURITYAMOUNT	INTERESTAMOUNT	INTERESTPAYMENTMODECODE	INTERESTPAYMENTMODEDESC	PACSIDPKEY	BRANCHIDPKEY	LEDGERFOLIONO	DEPOSITTYPECODE	DEPOSITTYPEDESC	INSTALLMENTAMOUNT	INSTALLMENTSPAID	TOTALINSTALLMENTAMOUNTPAID	LASTPAIDINSTALLDATE	LASTINTERESTPOSTINGDATE	TOTALINTERESTAMOUNT	CHKISINTERESTPOSTINGTOCB	ISINTERESTPOSTED	JOINTADMISSIONNO	REMARKS	STATUS	USERID	ISBULKUPLOAD	BATCHID	DCCBBRID	PROFILESTATUS	ISOPERATERVERIFIED	ISSUPERVISORVERIFIED	OPERATERVERIFIEDDATE	SUPERVISORVERIFIEDDATE	SAVEDATE	PROFILECAPTUREDATE	MODIFYDATE	SNO	BRANCHID	
+2004	Term Deposit Non Cummulative	923	9	9	Single	31/03/2015 00:00:00	3196.00	0	13	10.00	30/04/2016 00:00:00	3196.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	31/03/2015 00:00:00	31/03/2015 00:00:00	0.00	False		0	Interest amount should be greater than zero: 923
+Installment amount should be greater than zero: 923
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1047	15	9	Single	31/03/2015 00:00:00	11787.00	0	13	10.00	30/04/2016 00:00:00	11787.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	31/03/2015 00:00:00	31/03/2015 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1047
+Installment amount should be greater than zero: 1047
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1048	16	9	Single	31/03/2015 00:00:00	14735.00	0	13	10.00	30/04/2016 00:00:00	14735.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	31/03/2015 00:00:00	31/03/2015 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1048
+Installment amount should be greater than zero: 1048
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1495	17	9	Single	31/03/2015 00:00:00	14735.00	0	13	10.00	30/04/2016 00:00:00	14735.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	31/03/2015 00:00:00	31/03/2015 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1495
+Installment amount should be greater than zero: 1495
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1446	28	9	Single	31/03/2015 00:00:00	6412.00	0	13	10.00	30/04/2016 00:00:00	6412.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	31/03/2015 00:00:00	31/03/2015 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1446
+Installment amount should be greater than zero: 1446
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1445	29	9	Single	31/03/2015 00:00:00	6412.00	0	13	10.00	30/04/2016 00:00:00	6412.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	31/03/2015 00:00:00	31/03/2015 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1445
+Installment amount should be greater than zero: 1445
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1444	38	9	Single	31/03/2015 00:00:00	6412.00	0	13	10.00	30/04/2016 00:00:00	6412.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	31/03/2015 00:00:00	31/03/2015 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1444
+Installment amount should be greater than zero: 1444
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1408	39	9	Single	31/03/2015 00:00:00	6412.00	0	13	10.00	30/04/2016 00:00:00	6412.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	31/03/2015 00:00:00	31/03/2015 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1408
+Installment amount should be greater than zero: 1408
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1476	42	9	Single	31/03/2015 00:00:00	6412.00	0	13	10.00	30/04/2016 00:00:00	6412.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	31/03/2015 00:00:00	31/03/2015 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1476
+Installment amount should be greater than zero: 1476
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1477	43	9	Single	31/03/2015 00:00:00	6412.00	0	13	10.00	30/04/2016 00:00:00	6412.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	31/03/2015 00:00:00	31/03/2015 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1477
+Installment amount should be greater than zero: 1477
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1475	44	9	Single	31/03/2015 00:00:00	3205.00	0	13	10.00	30/04/2016 00:00:00	3205.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	31/03/2015 00:00:00	31/03/2015 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1475
+Installment amount should be greater than zero: 1475
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	306	45	9	Single	31/03/2015 00:00:00	3170.00	0	13	10.00	30/04/2016 00:00:00	3170.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	31/03/2015 00:00:00	31/03/2015 00:00:00	0.00	False		0	Interest amount should be greater than zero: 306
+Installment amount should be greater than zero: 306
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1478	47	9	Single	31/03/2015 00:00:00	6339.00	0	13	10.00	30/04/2016 00:00:00	6339.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	31/03/2015 00:00:00	31/03/2015 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1478
+Installment amount should be greater than zero: 1478
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1483	53	9	Single	31/03/2015 00:00:00	6339.00	0	13	10.00	30/04/2016 00:00:00	6339.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	31/03/2015 00:00:00	31/03/2015 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1483
+Installment amount should be greater than zero: 1483
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1405	63	9	Single	30/04/2015 00:00:00	6292.00	0	13	10.00	30/05/2016 00:00:00	6292.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	30/04/2015 00:00:00	30/04/2015 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1405
+Installment amount should be greater than zero: 1405
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1501	128	9	Single	06/01/2016 00:00:00	6188.00	0	13	10.00	06/02/2017 00:00:00	6188.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	06/01/2016 00:00:00	06/01/2016 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1501
+Installment amount should be greater than zero: 1501
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	10245	160	9	Single	29/01/2016 00:00:00	6143.00	0	13	10.00	28/02/2017 00:00:00	6143.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	29/01/2016 00:00:00	29/01/2016 00:00:00	0.00	False		0	Interest amount should be greater than zero: 10245
+Installment amount should be greater than zero: 10245
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1549	161	9	Single	29/01/2016 00:00:00	6143.00	0	13	10.00	28/02/2017 00:00:00	6143.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	29/01/2016 00:00:00	29/01/2016 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1549
+Installment amount should be greater than zero: 1549
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1523	174	9	Single	29/02/2016 00:00:00	6145.00	0	13	10.00	29/03/2017 00:00:00	6145.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	29/02/2016 00:00:00	29/02/2016 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1523
+Installment amount should be greater than zero: 1523
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1563	176	9	Single	29/02/2016 00:00:00	4912.00	0	13	10.00	29/03/2017 00:00:00	4912.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	29/02/2016 00:00:00	29/02/2016 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1563
+Installment amount should be greater than zero: 1563
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1519	181	9	Single	17/03/2016 00:00:00	6119.00	0	13	10.00	17/04/2017 00:00:00	6119.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	17/03/2016 00:00:00	17/03/2016 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1519
+Installment amount should be greater than zero: 1519
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	974	188	9	Single	18/03/2016 00:00:00	5314.00	0	13	10.00	18/04/2017 00:00:00	5314.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	18/03/2016 00:00:00	18/03/2016 00:00:00	0.00	False		0	Interest amount should be greater than zero: 974
+Installment amount should be greater than zero: 974
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1611	205	9	Single	24/05/2016 00:00:00	60131.00	0	13	10.00	24/06/2017 00:00:00	60131.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	24/05/2016 00:00:00	24/05/2016 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1611
+Installment amount should be greater than zero: 1611
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1641	237	9	Single	26/08/2016 00:00:00	5896.00	0	13	10.00	26/09/2017 00:00:00	5896.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	26/08/2016 00:00:00	26/08/2016 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1641
+Installment amount should be greater than zero: 1641
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1512	293	9	Single	23/02/2017 00:00:00	6152.00	0	13	10.00	23/03/2018 00:00:00	6152.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	23/02/2017 00:00:00	23/02/2017 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1512
+Installment amount should be greater than zero: 1512
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	102765	330	9	Single	09/11/2018 00:00:00	5456.00	0	13	10.00	09/12/2019 00:00:00	5456.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	09/11/2018 00:00:00	09/11/2018 00:00:00	0.00	False		0	Interest amount should be greater than zero: 102765
+Installment amount should be greater than zero: 102765
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	53	383	9	Single	27/06/2017 00:00:00	4304.00	0	13	10.00	27/07/2018 00:00:00	4304.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	27/06/2017 00:00:00	27/06/2017 00:00:00	0.00	False		0	Interest amount should be greater than zero: 53
+Installment amount should be greater than zero: 53
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	102705	391	9	Single	24/07/2017 00:00:00	30986.00	0	13	10.00	24/08/2018 00:00:00	30986.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	24/07/2017 00:00:00	24/07/2017 00:00:00	0.00	False		0	Interest amount should be greater than zero: 102705
+Installment amount should be greater than zero: 102705
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1665	416	9	Single	22/09/2017 00:00:00	4208.00	0	13	10.00	22/10/2018 00:00:00	4208.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	22/09/2017 00:00:00	22/09/2017 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1665
+Installment amount should be greater than zero: 1665
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1652	420	9	Single	22/09/2017 00:00:00	4208.00	0	13	10.00	22/10/2018 00:00:00	4208.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	22/09/2017 00:00:00	22/09/2017 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1652
+Installment amount should be greater than zero: 1652
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1675	430	9	Single	09/10/2017 00:00:00	4190.00	0	13	10.00	09/11/2018 00:00:00	4190.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	09/10/2017 00:00:00	09/10/2017 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1675
+Installment amount should be greater than zero: 1675
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1662	439	9	Single	09/10/2017 00:00:00	5000.00	0	13	10.00	09/11/2018 00:00:00	5000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	09/10/2017 00:00:00	09/10/2017 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1662
+Installment amount should be greater than zero: 1662
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1516	453	9	Single	02/11/2017 00:00:00	5204.00	0	13	10.00	02/12/2018 00:00:00	5204.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	02/11/2017 00:00:00	02/11/2017 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1516
+Installment amount should be greater than zero: 1516
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1599	454	9	Single	02/11/2017 00:00:00	5204.00	0	13	10.00	02/12/2018 00:00:00	5204.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	02/11/2017 00:00:00	02/11/2017 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1599
+Installment amount should be greater than zero: 1599
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1559	348	9	Single	23/01/2018 00:00:00	5092.00	0	13	10.00	23/02/2019 00:00:00	5092.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	23/01/2018 00:00:00	23/01/2018 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1559
+Installment amount should be greater than zero: 1559
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1434	349	9	Single	23/01/2018 00:00:00	5092.00	0	13	10.00	23/02/2019 00:00:00	5092.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	23/01/2018 00:00:00	23/01/2018 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1434
+Installment amount should be greater than zero: 1434
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1781	562	9	Single	11/10/2018 00:00:00	5000.00	0	13	10.00	11/11/2019 00:00:00	5000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	11/10/2018 00:00:00	11/10/2018 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1781
+Installment amount should be greater than zero: 1781
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1727	565	9	Single	11/10/2018 00:00:00	4500.00	0	13	10.00	11/11/2019 00:00:00	4500.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	11/10/2018 00:00:00	11/10/2018 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1727
+Installment amount should be greater than zero: 1727
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1711	581	9	Single	02/11/2018 00:00:00	5000.00	0	13	10.00	02/12/2019 00:00:00	5000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	02/11/2018 00:00:00	02/11/2018 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1711
+Installment amount should be greater than zero: 1711
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1187	633	9	Single	24/12/2018 00:00:00	5000.00	0	13	10.00	24/01/2020 00:00:00	5000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	24/12/2018 00:00:00	24/12/2018 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1187
+Installment amount should be greater than zero: 1187
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1806	637	9	Single	24/12/2018 00:00:00	5000.00	0	13	10.00	24/01/2020 00:00:00	5000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	24/12/2018 00:00:00	24/12/2018 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1806
+Installment amount should be greater than zero: 1806
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1364	698	9	Single	11/03/2019 00:00:00	100000.00	0	13	10.00	11/04/2020 00:00:00	100000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	11/03/2019 00:00:00	11/03/2019 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1364
+Installment amount should be greater than zero: 1364
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1812	704	9	Single	18/03/2019 00:00:00	5000.00	0	13	10.00	18/04/2020 00:00:00	5000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	18/03/2019 00:00:00	18/03/2019 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1812
+Installment amount should be greater than zero: 1812
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1480	705	9	Single	18/03/2019 00:00:00	5000.00	0	13	10.00	18/04/2020 00:00:00	5000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	18/03/2019 00:00:00	18/03/2019 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1480
+Installment amount should be greater than zero: 1480
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1533	722	9	Single	08/04/2019 00:00:00	6705.00	0	13	10.00	08/05/2020 00:00:00	6705.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	08/04/2019 00:00:00	08/04/2019 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1533
+Installment amount should be greater than zero: 1533
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1615	728	9	Single	15/04/2019 00:00:00	5000.00	0	13	10.00	15/05/2020 00:00:00	5000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	15/04/2019 00:00:00	15/04/2019 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1615
+Installment amount should be greater than zero: 1615
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1907	733	9	Single	03/05/2019 00:00:00	10000.00	0	13	10.00	03/06/2020 00:00:00	10000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	03/05/2019 00:00:00	03/05/2019 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1907
+Installment amount should be greater than zero: 1907
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1710	756	9	Single	12/06/2019 00:00:00	5000.00	0	13	10.00	12/07/2020 00:00:00	5000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	12/06/2019 00:00:00	12/06/2019 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1710
+Installment amount should be greater than zero: 1710
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1972	784	9	Single	01/04/2020 00:00:00	20000.00	0	13	10.00	01/05/2021 00:00:00	20000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	01/04/2020 00:00:00	01/04/2020 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1972
+Installment amount should be greater than zero: 1972
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1420	830	9	Single	02/11/2019 00:00:00	5000.00	0	13	10.00	02/12/2020 00:00:00	5000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	02/11/2019 00:00:00	02/11/2019 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1420
+Installment amount should be greater than zero: 1420
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1852	838	9	Single	02/11/2019 00:00:00	5000.00	0	13	10.00	02/12/2020 00:00:00	5000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	02/11/2019 00:00:00	02/11/2019 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1852
+Installment amount should be greater than zero: 1852
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1467	839	9	Single	02/11/2019 00:00:00	5000.00	0	13	10.00	02/12/2020 00:00:00	5000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	02/11/2019 00:00:00	02/11/2019 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1467
+Installment amount should be greater than zero: 1467
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1655	846	9	Single	08/11/2019 00:00:00	3000.00	0	13	10.00	08/12/2020 00:00:00	3000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	08/11/2019 00:00:00	08/11/2019 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1655
+Installment amount should be greater than zero: 1655
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1981	856	9	Single	22/11/2019 00:00:00	5000.00	0	13	10.00	22/12/2020 00:00:00	5000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	22/11/2019 00:00:00	22/11/2019 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1981
+Installment amount should be greater than zero: 1981
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	2006	857	9	Single	22/11/2019 00:00:00	5000.00	0	13	10.00	22/12/2020 00:00:00	5000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	22/11/2019 00:00:00	22/11/2019 00:00:00	0.00	False		0	Interest amount should be greater than zero: 2006
+Installment amount should be greater than zero: 2006
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	2005	858	9	Single	22/11/2019 00:00:00	5000.00	0	13	10.00	22/12/2020 00:00:00	5000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	22/11/2019 00:00:00	22/11/2019 00:00:00	0.00	False		0	Interest amount should be greater than zero: 2005
+Installment amount should be greater than zero: 2005
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1840	862	9	Single	22/11/2019 00:00:00	5000.00	0	13	10.00	22/12/2020 00:00:00	5000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	22/11/2019 00:00:00	22/11/2019 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1840
+Installment amount should be greater than zero: 1840
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1839	865	9	Single	22/11/2019 00:00:00	5000.00	0	13	10.00	22/12/2020 00:00:00	5000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	22/11/2019 00:00:00	22/11/2019 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1839
+Installment amount should be greater than zero: 1839
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1844	866	9	Single	22/11/2019 00:00:00	5000.00	0	13	10.00	22/12/2020 00:00:00	5000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	22/11/2019 00:00:00	22/11/2019 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1844
+Installment amount should be greater than zero: 1844
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1916	901	9	Single	11/12/2019 00:00:00	5000.00	0	13	10.00	11/01/2021 00:00:00	5000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	11/12/2019 00:00:00	11/12/2019 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1916
+Installment amount should be greater than zero: 1916
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1961	914	9	Single	11/12/2019 00:00:00	5000.00	0	13	10.00	11/01/2021 00:00:00	5000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	11/12/2019 00:00:00	11/12/2019 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1961
+Installment amount should be greater than zero: 1961
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1960	915	9	Single	11/12/2019 00:00:00	5000.00	0	13	10.00	11/01/2021 00:00:00	5000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	11/12/2019 00:00:00	11/12/2019 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1960
+Installment amount should be greater than zero: 1960
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	102185	980	9	Single	24/01/2020 00:00:00	100000.00	0	13	10.00	24/02/2021 00:00:00	100000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	24/01/2020 00:00:00	24/01/2020 00:00:00	0.00	False		0	Interest amount should be greater than zero: 102185
+Installment amount should be greater than zero: 102185
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	10416	982	9	Single	27/01/2020 00:00:00	60000.00	0	13	10.00	27/02/2021 00:00:00	60000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	27/01/2020 00:00:00	27/01/2020 00:00:00	0.00	False		0	Interest amount should be greater than zero: 10416
+Installment amount should be greater than zero: 10416
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1722	986	9	Single	28/01/2020 00:00:00	5000.00	0	13	10.00	28/02/2021 00:00:00	5000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	28/01/2020 00:00:00	28/01/2020 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1722
+Installment amount should be greater than zero: 1722
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1951	987	9	Single	28/01/2020 00:00:00	5000.00	0	13	10.00	28/02/2021 00:00:00	5000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	28/01/2020 00:00:00	28/01/2020 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1951
+Installment amount should be greater than zero: 1951
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1950	988	9	Single	28/01/2020 00:00:00	5000.00	0	13	10.00	28/02/2021 00:00:00	5000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	28/01/2020 00:00:00	28/01/2020 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1950
+Installment amount should be greater than zero: 1950
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	2016	989	9	Single	28/01/2020 00:00:00	5000.00	0	13	10.00	28/02/2021 00:00:00	5000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	28/01/2020 00:00:00	28/01/2020 00:00:00	0.00	False		0	Interest amount should be greater than zero: 2016
+Installment amount should be greater than zero: 2016
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	2017	990	9	Single	28/01/2020 00:00:00	5000.00	0	13	10.00	28/02/2021 00:00:00	5000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	28/01/2020 00:00:00	28/01/2020 00:00:00	0.00	False		0	Interest amount should be greater than zero: 2017
+Installment amount should be greater than zero: 2017
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1980	992	9	Single	28/01/2020 00:00:00	5000.00	0	13	10.00	28/02/2021 00:00:00	5000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	28/01/2020 00:00:00	28/01/2020 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1980
+Installment amount should be greater than zero: 1980
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1944	993	9	Single	28/01/2020 00:00:00	5000.00	0	13	10.00	28/02/2021 00:00:00	5000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	28/01/2020 00:00:00	28/01/2020 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1944
+Installment amount should be greater than zero: 1944
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1880	994	9	Single	28/01/2020 00:00:00	5000.00	0	13	10.00	28/02/2021 00:00:00	5000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	28/01/2020 00:00:00	28/01/2020 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1880
+Installment amount should be greater than zero: 1880
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1881	995	9	Single	28/01/2020 00:00:00	5000.00	0	13	10.00	28/02/2021 00:00:00	5000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	28/01/2020 00:00:00	28/01/2020 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1881
+Installment amount should be greater than zero: 1881
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1970	1020	9	Single	17/02/2020 00:00:00	5000.00	0	13	10.00	17/03/2021 00:00:00	5000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	17/02/2020 00:00:00	17/02/2020 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1970
+Installment amount should be greater than zero: 1970
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1425	1022	9	Single	17/02/2020 00:00:00	5000.00	0	13	10.00	17/03/2021 00:00:00	5000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	17/02/2020 00:00:00	17/02/2020 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1425
+Installment amount should be greater than zero: 1425
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1909	1023	9	Single	17/02/2020 00:00:00	5000.00	0	13	10.00	17/03/2021 00:00:00	5000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	17/02/2020 00:00:00	17/02/2020 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1909
+Installment amount should be greater than zero: 1909
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	2123	1040	9	Single	07/03/2020 00:00:00	40000.00	0	13	10.00	07/04/2021 00:00:00	40000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	07/03/2020 00:00:00	07/03/2020 00:00:00	0.00	False		0	Interest amount should be greater than zero: 2123
+Installment amount should be greater than zero: 2123
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1561	1045	9	Single	12/03/2020 00:00:00	10000.00	0	13	10.00	12/04/2021 00:00:00	10000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	12/03/2020 00:00:00	12/03/2020 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1561
+Installment amount should be greater than zero: 1561
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1811	1056	9	Single	19/03/2020 00:00:00	5000.00	0	13	10.00	19/04/2021 00:00:00	5000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	19/03/2020 00:00:00	19/03/2020 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1811
+Installment amount should be greater than zero: 1811
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			
+2004	Term Deposit Non Cummulative	1948	1062	9	Single	31/03/2020 00:00:00	3000.00	0	13	10.00	30/04/2021 00:00:00	3000.00	0.00	6	Monthly	91150108064001	101	1	2	Non-Cumulative	0.00	0	0.00	31/03/2020 00:00:00	31/03/2020 00:00:00	0.00	False		0	Interest amount should be greater than zero: 1948
+Installment amount should be greater than zero: 1948
+		10025	1	9378250322	0	U	0	0	31/07/2024 00:00:00	31/07/2024 00:00:00	31/07/2024 00:00:00		31/07/2024 00:00:00			

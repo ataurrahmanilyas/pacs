@@ -1,0 +1,115 @@
+PRODUCTCODE	PRODUCTDESCRIPTION	ADMISSIONNO	ACCOUNTNO	OPERATIONTYPECODE	OPERATIONTYPEDESC	DEPOSITDATE	DEPOSITAMOUNT	TERMINDAYS	TERMINMONTHS	RATEOFINTEREST	MATURITYDATE	MATURITYAMOUNT	INTERESTAMOUNT	INTERESTPAYMENTMODECODE	INTERESTPAYMENTMODEDESC	PACSIDPKEY	BRANCHIDPKEY	LEDGERFOLIONO	DEPOSITTYPECODE	DEPOSITTYPEDESC	LASTINTERESTPOSTINGDATE	TOTALINTERESTAMOUNT	CHKISINTERESTPOSTINGTOCB	ISINTERESTPOSTED	JOINTADMISSIONNO	REMARKS	STATUS	USERID	ISBULKUPLOAD	BATCHID	DCCBBRID	PROFILESTATUS	ISOPERATERVERIFIED	ISSUPERVISORVERIFIED	OPERATERVERIFIEDDATE	SUPERVISORVERIFIEDDATE	SAVEDATE	PROFILECAPTUREDATE	MODIFYDATE	SNO	BRANCHID	
+9007	Cash Certificate Deposit	198	9	9	Single	05/09/2023 00:00:00	180000.00	0	12	9.50	05/09/2024 00:00:00	94872.00	4872.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	4872.00	False		0	Deposit amount should be less than Maturity amount: 198
+deposit amount should be less than maturity amount: 180000
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	20	79	9	Single	04/08/2016 00:00:00	30000.00	0	84	10.00	04/08/2023 00:00:00	20000.00	10000.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	10000.00	False		0	Deposit amount should be less than Maturity amount: 20
+deposit amount should be less than maturity amount: 30000
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	497	96	9	Single	02/11/2018 00:00:00	303000.00	0	80	10.00	02/07/2025 00:00:00	30827.00	10827.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	10827.00	False		0	Deposit amount should be less than Maturity amount: 497
+deposit amount should be less than maturity amount: 303000
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	500	106	9	Single	19/08/2016 00:00:00	62500.00	0	84	10.00	19/08/2023 00:00:00	40000.00	20000.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	20000.00	False		0	Deposit amount should be less than Maturity amount: 500
+deposit amount should be less than maturity amount: 62500
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	142	113	9	Single	30/03/2023 00:00:00	190000.00	0	12	9.00	30/03/2024 00:00:00	119929.00	9929.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	9929.00	False		0	Deposit amount should be less than Maturity amount: 142
+deposit amount should be less than maturity amount: 190000
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	502	116	9	Single	11/01/2018 00:00:00	230000.00	0	12	10.00	11/01/2019 00:00:00	55000.00	5000.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	5000.00	False		0	Deposit amount should be less than Maturity amount: 502
+deposit amount should be less than maturity amount: 230000
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	509	134	9	Single	10/01/2022 00:00:00	60000.00	0	12	9.00	10/01/2023 00:00:00	21828.00	1828.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	1828.00	False		0	Deposit amount should be less than Maturity amount: 509
+deposit amount should be less than maturity amount: 60000
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	586	154	9	Single	30/10/2018 00:00:00	10000.00	0	80	10.00	30/06/2025 00:00:00	7711.00	2711.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	2711.00	False		0	Deposit amount should be less than Maturity amount: 586
+deposit amount should be less than maturity amount: 10000
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	594	163	9	Single	30/10/2018 00:00:00	9000.00	0	80	10.00	30/06/2025 00:00:00	6169.00	2169.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	2169.00	False		0	Deposit amount should be less than Maturity amount: 594
+deposit amount should be less than maturity amount: 9000
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	607	178	9	Single	03/11/2018 00:00:00	6700.00	0	80	10.00	03/07/2025 00:00:00	4623.00	1623.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	1623.00	False		0	Deposit amount should be less than Maturity amount: 607
+deposit amount should be less than maturity amount: 6700
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	608	179	9	Single	05/11/2018 00:00:00	50000.00	0	80	10.00	05/07/2025 00:00:00	46216.00	16216.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	16216.00	False		0	Deposit amount should be less than Maturity amount: 608
+deposit amount should be less than maturity amount: 50000
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	612	184	9	Single	07/11/2018 00:00:00	14000.00	0	80	10.00	07/07/2025 00:00:00	6160.00	2160.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	2160.00	False		0	Deposit amount should be less than Maturity amount: 612
+deposit amount should be less than maturity amount: 14000
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	617	189	9	Single	07/11/2018 00:00:00	105000.00	0	80	10.00	07/07/2025 00:00:00	7700.00	2700.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	2700.00	False		0	Deposit amount should be less than Maturity amount: 617
+deposit amount should be less than maturity amount: 105000
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	618	190	9	Single	07/11/2018 00:00:00	10000.00	0	80	10.00	07/07/2025 00:00:00	7700.00	2700.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	2700.00	False		0	Deposit amount should be less than Maturity amount: 618
+deposit amount should be less than maturity amount: 10000
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	619	192	9	Single	09/11/2018 00:00:00	25000.00	0	80	10.00	09/07/2025 00:00:00	23092.00	8092.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	8092.00	False		0	Deposit amount should be less than Maturity amount: 619
+deposit amount should be less than maturity amount: 25000
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	629	206	9	Single	12/11/2018 00:00:00	28000.00	0	80	10.00	12/07/2025 00:00:00	4616.00	1616.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	1616.00	False		0	Deposit amount should be less than Maturity amount: 629
+deposit amount should be less than maturity amount: 28000
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	650	214	9	Single	06/05/2019 00:00:00	116300.00	0	84	10.00	06/05/2026 00:00:00	24298.00	7998.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	7998.00	False		0	Deposit amount should be less than Maturity amount: 650
+deposit amount should be less than maturity amount: 116300
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	577	217	9	Single	07/06/2019 00:00:00	4000.00	0	80	0.00	07/02/2026 00:00:00	1000.00	0.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	0.00	False		0	Deposit amount should be less than Maturity amount: 577
+deposit amount should be less than maturity amount: 4000
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	659	218	9	Single	12/07/2019 00:00:00	73560.00	0	84	10.00	12/07/2026 00:00:00	53092.00	17032.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	17032.00	False		0	Deposit amount should be less than Maturity amount: 659
+deposit amount should be less than maturity amount: 73560
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	665	229	9	Single	07/09/2019 00:00:00	53790.00	0	84	10.00	07/09/2026 00:00:00	7284.00	2284.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	2284.00	False		0	Deposit amount should be less than Maturity amount: 665
+deposit amount should be less than maturity amount: 53790
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	79	262	9	Single	03/12/2019 00:00:00	53000.00	0	80	10.00	03/08/2026 00:00:00	4299.00	1299.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	1299.00	False		0	Deposit amount should be less than Maturity amount: 79
+deposit amount should be less than maturity amount: 53000
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	639	273	9	Single	05/12/2019 00:00:00	9000.00	0	80	10.00	05/08/2026 00:00:00	7162.00	2162.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	2162.00	False		0	Deposit amount should be less than Maturity amount: 639
+deposit amount should be less than maturity amount: 9000
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	18	288	9	Single	31/01/2020 00:00:00	50000.00	0	80	9.00	30/09/2026 00:00:00	41251.00	11251.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	11251.00	False		0	Deposit amount should be less than Maturity amount: 18
+deposit amount should be less than maturity amount: 50000
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	681	289	9	Single	23/03/2020 00:00:00	11000.00	0	80	9.00	23/11/2026 00:00:00	1362.00	362.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	362.00	False		0	Deposit amount should be less than Maturity amount: 681
+deposit amount should be less than maturity amount: 11000
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	684	292	9	Single	06/10/2023 00:00:00	40000.00	0	12	9.00	06/10/2024 00:00:00	10436.00	436.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	436.00	False		0	Deposit amount should be less than Maturity amount: 684
+deposit amount should be less than maturity amount: 40000
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	72	305	9	Single	17/11/2020 00:00:00	129000.00	0	80	9.00	17/07/2027 00:00:00	45615.00	10615.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	10615.00	False		0	Deposit amount should be less than Maturity amount: 72
+deposit amount should be less than maturity amount: 129000
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	740	309	9	Single	23/12/2021 00:00:00	15900.00	0	12	9.00	23/12/2022 00:00:00	5458.00	458.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	458.00	False		0	Deposit amount should be less than Maturity amount: 740
+deposit amount should be less than maturity amount: 15900
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	5	313	9	Single	10/10/2022 00:00:00	954590.00	0	12	9.00	10/10/2023 00:00:00	83637.00	7047.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	7047.00	False		0	Deposit amount should be less than Maturity amount: 5
+deposit amount should be less than maturity amount: 954590
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	6	314	9	Single	01/06/2023 00:00:00	332500.00	0	12	0.00	01/06/2024 00:00:00	10000.00	0.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	0.00	False		0	Deposit amount should be less than Maturity amount: 6
+deposit amount should be less than maturity amount: 332500
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	749	316	9	Single	06/09/2023 00:00:00	855337.00	0	12	9.50	06/09/2024 00:00:00	500547.00	25589.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	25589.00	False		0	Deposit amount should be less than Maturity amount: 749
+deposit amount should be less than maturity amount: 855337
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	752	324	9	Single	22/11/2022 00:00:00	60000.00	0	12	9.00	22/11/2023 00:00:00	54592.00	4592.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	4592.00	False		0	Deposit amount should be less than Maturity amount: 752
+deposit amount should be less than maturity amount: 60000
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	739	326	9	Single	23/12/2021 00:00:00	10000.00	0	12	9.00	23/12/2022 00:00:00	5458.00	458.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	458.00	False		0	Deposit amount should be less than Maturity amount: 739
+deposit amount should be less than maturity amount: 10000
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	90	327	9	Single	09/05/2022 00:00:00	243700.00	0	12	9.00	09/05/2023 00:00:00	81808.00	6808.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	6808.00	False		0	Deposit amount should be less than Maturity amount: 90
+deposit amount should be less than maturity amount: 243700
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	757	329	9	Single	24/02/2024 00:00:00	1000000.00	0	12	9.00	24/02/2025 00:00:00	504438.00	4438.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	4438.00	False		0	Deposit amount should be less than Maturity amount: 757
+deposit amount should be less than maturity amount: 1000000
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	698	339	9	Single	28/02/2023 00:00:00	105000.00	0	12	9.00	28/02/2024 00:00:00	27266.00	2266.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	2266.00	False		0	Deposit amount should be less than Maturity amount: 698
+deposit amount should be less than maturity amount: 105000
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	696	340	9	Single	28/02/2023 00:00:00	75000.00	0	12	9.00	28/02/2024 00:00:00	27266.00	2266.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	2266.00	False		0	Deposit amount should be less than Maturity amount: 696
+deposit amount should be less than maturity amount: 75000
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	788	342	9	Single	17/04/2023 00:00:00	200000.00	0	12	9.00	17/04/2024 00:00:00	108605.00	8605.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	8605.00	False		0	Deposit amount should be less than Maturity amount: 788
+deposit amount should be less than maturity amount: 200000
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			
+9007	Cash Certificate Deposit	827	359	9	Single	05/02/2024 00:00:00	35000.00	0	12	9.00	05/02/2025 00:00:00	10136.00	136.00	0	Yearly	91150306096003	101		3	Cumulative	31/03/2024 00:00:00	136.00	False		0	Deposit amount should be less than Maturity amount: 827
+deposit amount should be less than maturity amount: 35000
+		558	1	9451628368	0	U	0	0	30/08/2024 00:00:00	30/08/2024 00:00:00	30/08/2024 00:00:00		30/08/2024 00:00:00			

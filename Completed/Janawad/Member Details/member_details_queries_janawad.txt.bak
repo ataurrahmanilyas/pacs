@@ -1,0 +1,322 @@
+D:\Office\eVaidya\PACs\Jainpur\member_details_janawad
+
+
+CREATE TABLE member_details_janawad_raw LIKE member_details_raw ;
+
+TRUNCATE TABLE member_details_janawad_raw;
+
+LOAD DATA LOCAL INFILE 'D:/Office/eVaidya/PACs/Jainpur/member_details_janawad/to_db.csv' 
+IGNORE INTO TABLE inventcorpco.member_details_janawad_raw 
+FIELDS TERMINATED BY '|' 
+OPTIONALLY ENCLOSED BY '\"' 
+LINES TERMINATED BY '\n' 
+
+LOAD DATA LOCAL INFILE 'D:/Office/eVaidya/PACs/Jainpur/member_details_janawad/to_db.csv'
+REPLACE
+INTO TABLE member_details_janawad_raw
+FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES
+
+CREATE TABLE member_details_janawad_20240808 SELECT * FROM member_details_janawad;
+
+TRUNCATE TABLE member_details_janawad;
+
+CREATE TABLE `member_details_janawad` (
+   mmeber_details_rec_id INT(11) PRIMARY KEY AUTO_INCREMENT,
+  `customer_type` varchar(100) NOT NULL DEFAULT '',
+  `member_type` varchar(100) NOT NULL DEFAULT '',
+  `admission_no` int(11) NOT NULL DEFAULT 0,
+  `surname` varchar(100) NOT NULL DEFAULT '',
+  `member_name` varchar(100) NOT NULL DEFAULT '',
+  `gender` varchar(15) NOT NULL DEFAULT '',
+  `share_balance` varchar(100) NOT NULL DEFAULT '',
+  `village` varchar(100) NOT NULL DEFAULT '',
+  `ledger_folio_no` varchar(100) NOT NULL DEFAULT '',
+  `admission_date` DATE NOT NULL,
+  `age_as_on_admission_date` SMALLINT(6) NOT NULL DEFAULT 0,
+  `date_of_birth` DATE NOT NULL,
+  `father_or_mother_name` varchar(100) NOT NULL DEFAULT '',
+  `marital_status` varchar(100) NOT NULL DEFAULT '',
+  `spouse_name` varchar(100) NOT NULL DEFAULT '',
+  `address` varchar(100) NOT NULL DEFAULT '',
+  `mobile_no` varchar(100) NOT NULL DEFAULT '',
+  `aadhar_card_no` varchar(100) NOT NULL DEFAULT '',
+  `caste` varchar(100) NOT NULL DEFAULT '',
+  `community` varchar(100) NOT NULL DEFAULT '',
+  `farmer_type` varchar(100) NOT NULL DEFAULT '',
+  `dividend_amount` varchar(100) NOT NULL DEFAULT '',
+  `thrift_balance` varchar(100) NOT NULL DEFAULT '',
+  `dccb_or_sb_or_other_bank_ac` varchar(100) NOT NULL DEFAULT '',
+  INDEX idx_customer_type (customer_type),
+  INDEX idx_member_type (member_type),
+  INDEX idx_admission_no (admission_no),
+  INDEX idx_admission_date (admission_date)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+
+SELECT admission_date, STR_TO_DATE(admission_date,'%d-%m-%Y') FROM member_details_janawad_raw LIMIT 10;
+
+SELECT admission_date, STR_TO_DATE(admission_date,'%d-%m-%Y') FROM member_details_janawad_raw WHERE  STR_TO_DATE(admission_date,'%d-%m-%Y') = '0000-00-00' LIMIT 10;
+
+SELECT admission_date, STR_TO_DATE(admission_date,'%d-%m-%Y') FROM member_details_janawad_raw WHERE admission_date  LIKE '%/%' LIMIT 10;
+
+REPLACE(str,from_str,to_str)
+
+UPDATE member_details_janawad_raw SET admission_date = REPLACE(admission_date,'/','-') WHERE admission_date  LIKE '%/%';
+
+UPDATE member_details_janawad_raw SET admission_date = STR_TO_DATE(admission_date,'%d-%m-%Y');
+
+SELECT admission_date  FROM member_details_janawad_raw WHERE admission_date >= '2024-03-31' LIMIT 10;
+SELECT admission_date  FROM member_details_janawad_raw WHERE admission_date = '0000-00-00' LIMIT 10;
+SELECT admission_date  FROM member_details_janawad_raw WHERE admission_date Is NULL LIMIT 10;
+
+
+SELECT admission_date FROM member_details_janawad_raw LIMIT 10;
+
+SELECT date_of_birth, STR_TO_DATE(date_of_birth,'%d-%m-%Y') FROM member_details_janawad_raw WHERE date_of_birth  LIKE '%/%' LIMIT 10;
+
+REPLACE(str,from_str,to_str)
+
+UPDATE member_details_janawad_raw SET date_of_birth = REPLACE(date_of_birth,'/','-') WHERE date_of_birth  LIKE '%/%';
+
+SELECT date_of_birth, STR_TO_DATE(date_of_birth,'%d-%m-%Y') FROM member_details_janawad_raw LIMIT 10;
+
+
+SELECT date_of_birth, STR_TO_DATE(date_of_birth,'%d-%m-%Y') FROM member_details_janawad_raw WHERE  STR_TO_DATE(date_of_birth,'%d-%m-%Y') = '0000-00-00' LIMIT 10;
+
+SELECT date_of_birth, STR_TO_DATE(date_of_birth,'%d-%m-%Y') FROM member_details_janawad_raw WHERE MONTH(STR_TO_DATE(date_of_birth,'%d-%m-%Y')) > 10 LIMIT 10;
+
+UPDATE member_details_janawad_raw SET date_of_birth = STR_TO_DATE(date_of_birth,'%d-%m-%Y');
+
+SELECT date_of_birth  FROM member_details_janawad_raw WHERE date_of_birth = '0000-00-00' LIMIT 10;
+SELECT date_of_birth  FROM member_details_janawad_raw WHERE date_of_birth Is NULL LIMIT 10;
+
+
+SELECT date_of_birth, DATE_FORMAT(FROM_DAYS(DATEDIFF(NOW(),date_of_birth)), '%Y') + 0 AS age FROM member_details_janawad_raw WHERE (DATE_FORMAT(FROM_DAYS(DATEDIFF(NOW(),date_of_birth)), '%Y') + 0) < 18  LIMIT 10;
+
+SELECT age_as_on_admission_date, (DATE_FORMAT(FROM_DAYS(DATEDIFF(NOW(),date_of_birth)), '%Y') + 0) FROM member_details_janawad WHERE age_as_on_admission_date = '0' LIMIT 10;
+
+SELECT COUNT(1) FROM member_details_janawad_raw WHERE (DATE_FORMAT(FROM_DAYS(DATEDIFF(NOW(),date_of_birth)), '%Y') + 0) < 18  LIMIT 10;
+
+SELECT admission_date, date_of_birth, DATE_SUB(admission_date, INTERVAL 20 Year) FROM member_details_janawad_raw WHERE (DATE_FORMAT(FROM_DAYS(DATEDIFF(NOW(),date_of_birth)), '%Y') + 0) < 18  LIMIT 10;
+
+UPDATE member_details_janawad_raw SET date_of_birth = DATE_SUB(admission_date, INTERVAL 20 Year) WHERE (DATE_FORMAT(FROM_DAYS(DATEDIFF(NOW(),date_of_birth)), '%Y') + 0) < 18; 
+
+UPDATE member_details_janawad_raw SET date_of_birth = DATE_SUB(admission_date, INTERVAL 20 Year) WHERE date_of_birth = '0000-00-00'; 
+
+SELECT date_of_birth, STR_TO_DATE(date_of_birth,'%d-%m-%Y') FROM member_details_janawad_raw WHERE  STR_TO_DATE(date_of_birth,'%d-%m-%Y') = '0000-00-00' LIMIT 10;
+
+SELECT date_of_birth, STR_TO_DATE(date_of_birth,'%d-%m-%Y') FROM member_details_janawad_raw WHERE MONTH(STR_TO_DATE(date_of_birth,'%d-%m-%Y')) > 10 LIMIT 10;
+
+SELECT age_as_on_admission_date, date_of_birth, (DATE_FORMAT(FROM_DAYS(DATEDIFF(NOW(),date_of_birth)), '%Y') + 0) FROM member_details_janawad WHERE age_as_on_admission_date = '0' LIMIT 10;
+
+SELECT age_as_on_admission_date, date_of_birth, (DATE_FORMAT(FROM_DAYS(DATEDIFF(NOW(),date_of_birth)), '%Y') + 0) FROM member_details_janawad_raw WHERE age_as_on_admission_date = '0' LIMIT 10;
+
+UPDATE member_details_janawad_raw SET age_as_on_admission_date = (DATE_FORMAT(FROM_DAYS(DATEDIFF(NOW(),date_of_birth)), '%Y') + 0) WHERE age_as_on_admission_date = '0';
+
+UPDATE member_details_janawad SET age_as_on_admission_date = (DATE_FORMAT(FROM_DAYS(DATEDIFF(NOW(),date_of_birth)), '%Y') + 0) WHERE age_as_on_admission_date = '0';
+
+SELECT COUNT(1) FROM member_details_janawad;
+
+CREATE TABLE member_details_janawad LIKE member_details;
+
+INSERT INTO member_details_janawad SELECT * FROM member_details_janawad_raw;
+
+SELECT DISTINCT customer_type, member_type FROM member_details_janawad LIMIT 10;
+
+
+SELECT DISTINCT customer_type FROM member_details_janawad LIMIT 10;
+
+SELECT DISTINCT customer_type, member_type FROM member_details_janawad WHERE customer_type = 'Member';
+
+UPDATE member_details_janawad SET customer_type = 'Nominal Member' WHERE customer_type = 'NOMINAL';
+
+
+UPDATE member_details_janawad SET member_type = 'A Type' WHERE customer_type = 'Member';
+
+UPDATE member_details_janawad SET member_type = 'B Type' WHERE customer_type = 'Nominal Member';
+
+UPDATE member_details_janawad SET member_type = 'C Type' WHERE customer_type = 'Organisation';
+
+SELECT DISTINCT member_type, customer_type, COUNT(1) FROM member_details_janawad GROUP BY member_type, customer_type LIMIT 10;
+
+SELECT * FROM member_details_janawad WHERE member_type = '';
+
+DELETE FROM member_details_janawad WHERE member_type = '';
+
+SELECT COUNT(DISTINCT admission_no), COUNT(*)  FROM member_details_janawad ;
+
+SELECT admission_no, COUNT(1) as cnt FROM member_details_janawad GROUP BY admission_no HAVING cnt > 1 LIMIT 10;
+
+SELECT DISTINCT gender, COUNT(1) FROM member_details_janawad GROUP BY gender;
+
+SELECT * FROM member_details_janawad WHERE gender = ''\G;
+
+UPDATE  member_details_janawad SET gender = 'Others' WHERE gender = '';
+UPDATE  member_details_janawad SET gender = 'Others' WHERE gender = 'OTHERS';
+
+SELECT DISTINCT surname,REGEXP_REPLACE(surname, '[^A-Za-z ]', ' ') FROM member_details_janawad WHERE surname REGEXP '[^A-Za-z ]' LIMIT 10;
+
+UPDATE  member_details_janawad SET surname = TRIM(REGEXP_REPLACE(surname, '[^A-Za-z ]', ' '))  WHERE surname REGEXP '[^A-Za-z ]' ;
+
+SELECT surname, gender FROM member_details_janawad WHERE surname = '' LIMIT 10;
+
+UPDATE member_details_janawad SET surname = 'Mr' WHERE surname = '' && gender  = 'Male';
+
+UPDATE member_details_janawad SET surname = 'Mrs' WHERE surname = '' && gender  = 'Female';
+
+
+SELECT SUBSTR(member_name,1,1) FROM member_details_janawad LIMIT 10;
+
+UPDATE member_details_janawad SET surname = SUBSTR(member_name,1,1) WHERE surname = '' && gender  = 'Others';
+
+
+SELECT DISTINCT member_name,REGEXP_REPLACE(member_name, '[^A-Za-z ]', ' ') FROM member_details_janawad WHERE member_name REGEXP '[^A-Za-z ]' LIMIT 10;
+
+UPDATE  member_details_janawad SET member_name = TRIM(REGEXP_REPLACE(member_name, '[^A-Za-z ]', ' '))  WHERE member_name REGEXP '[^A-Za-z ]' ;
+
+
+SELECT DISTINCT father_or_mother_name,REGEXP_REPLACE(father_or_mother_name, '[^A-Za-z ]', ' ') FROM member_details_janawad WHERE father_or_mother_name REGEXP '[^A-Za-z ]' LIMIT 10;
+
+UPDATE  member_details_janawad SET father_or_mother_name = TRIM(REGEXP_REPLACE(father_or_mother_name, '[^A-Za-z ]', ' '))  WHERE father_or_mother_name REGEXP '[^A-Za-z ]' ;
+
+SELECT DISTINCT spouse_name FROM member_details_janawad WHERE spouse_name = '' LIMIT 10;
+SELECT COUNT(1) FROM member_details_janawad WHERE spouse_name = '' LIMIT 10;
+
+SELECT DISTINCT spouse_name,REGEXP_REPLACE(spouse_name, '[^A-Za-z ]', ' ') FROM member_details_janawad WHERE spouse_name REGEXP '[^A-Za-z ]' LIMIT 10;
+
+UPDATE  member_details_janawad SET spouse_name = TRIM(REGEXP_REPLACE(spouse_name, '[^A-Za-z ]', ' '))  WHERE spouse_name REGEXP '[^A-Za-z ]' ;
+
+
+SELECT  spouse_name FROM member_details_janawad WHERE spouse_name <> '' LIMIT 10;
+
+
+SELECT DISTINCT gender FROM member_details_janawad;
+
+SELECT DISTINCT marital_status FROM member_details_janawad;
+
+
+SELECT  father_or_mother_name, spouse_name FROM member_details_janawad WHERE gender = 'Female' && marital_status = 'Married' && spouse_name = '' LIMIT 10;
+
+UPDATE member_details_janawad SET spouse_name = father_or_mother_name WHERE gender = 'Female' && marital_status = 'Married' && spouse_name = '';
+
+SELECT DISTINCT village FROM member_details_janawad ;
+
+SELECT DISTINCT mobile_no, LENGTH(mobile_no) FROM member_details_janawad WHERE LENGTH(mobile_no) <> 10 LIMIT 100;
+
+UPDATE  member_details_janawad SET mobile_no = '' WHERE LENGTH(mobile_no) <> 10 ;
+
+SELECT DISTINCT aadhar_card_no, LENGTH(aadhar_card_no) FROM member_details_janawad_raw WHERE LENGTH(aadhar_card_no) <> 12 LIMIT 10;
+
+UPDATE  member_details_janawad SET aadhar_card_no = '' WHERE LENGTH(aadhar_card_no) <> 12 ;
+
+
+SELECT DISTINCT caste FROM member_details_janawad;
+
+UPDATE  member_details_janawad SET caste = 'General' WHERE caste = 'Hindu';
+
+UPDATE  member_details_janawad SET caste = 'Other Backward Caste' WHERE caste = 'Other Caste';
+
+UPDATE  member_details_janawad SET caste = 'Schedule Caste' WHERE caste = 'Schedule Caste';
+
+UPDATE  member_details_janawad SET caste = 'Other Backward Caste' WHERE caste = 'Other Backward Class';
+
+UPDATE  member_details_janawad SET caste = 'Schedule Tribe' WHERE caste = 'Schedule Tribe';
+
+
+
+
+
+
+SELECT DISTINCT community FROM member_details_janawad;
+
+UPDATE  member_details_janawad SET community = 'Hindu' WHERE caste IN ('General','');
+
+SELECT DISTINCT farmer_type FROM member_details_janawad;
+
+UPDATE member_details_janawad SET farmer_type = 'Small Or Marginal' WHERE farmer_type = 'Small Farmers (Above 2.5 to 5 Acre)';
+
+UPDATE member_details_janawad SET farmer_type = 'Small Or Marginal' WHERE farmer_type = 'Marginal Farmers(Up to 2.5 Acre)';
+
+UPDATE member_details_janawad SET farmer_type = 'Medium' WHERE farmer_type = 'Medium Farmers (Above 5 to 12.5 Acre)';
+
+UPDATE member_details_janawad SET farmer_type = 'Big' WHERE farmer_type = 'Big Farmers (Above 12.5 Acre)';
+
+SELECT COUNT(1) FROM member_details_janawad WHERE dccb_or_sb_or_other_bank_ac = '0' LIMIT 10;
+
+UPDATE member_details_janawad SET dccb_or_sb_or_other_bank_ac = '' WHERE dccb_or_sb_or_other_bank_ac = '0' ;
+
+SELECT DISTINCT village FROM member_details_janawad;
+
+SELECT DISTINCT village, COUNT(1) FROM member_details_janawad GROUP BY village;
+
+Jainapur
+Others
+Toranahalli
+
+UPDATE member_details_janawad SET village = 'Janawad' WHERE village = 'JANAWAD';
+
+UPDATE member_details_janawad SET village = 'Toranahalli'  WHERE village = 'AT: TORANAHALLI PO: TORANAHALL';
+
+UPDATE member_details_janawad SET village = 'Toranahalli'  WHERE village = 'AT: TORANAHALLI PO: JAINAPUR T';
+UPDATE member_details_janawad SET village = 'Toranahalli' WHERE village = 'AT: TORANHALLI PO: JAINAPUR TQ';
+
+UPDATE member_details_janawad SET village = 'Jainapur'  WHERE village = '+AT: JAINAPUR PO: JAINAPUR TQ:';
+
+UPDATE member_details_janawad SET village = 'Jainapur' WHERE village = 'AT: JAINAPUR PO: TORANAHALLI T';
+
+UPDATE member_details_janawad SET village = 'Jainapur' WHERE village = 'AT: JAINAPUR +PO: JAINAPUR TQ:';
+
+UPDATE member_details_janawad SET village = 'Toranahalli'  WHERE village = 'AT: THORANHALLI PO: JAINAPUR T';
+
+UPDATE member_details_janawad SET address = village WHERE village = 'AT: AMATUR PO: AMATUR TQ: BAIL';
+
+UPDATE member_details_janawad SET village = 'Jainapur'  WHERE village = 'AT: AMATUR PO: AMATUR TQ: BAIL';
+
+UPDATE member_details_janawad SET village = 'Jainapur'  WHERE village = '';
+
+JAINAPUR
+
+SELECT COUNT(1) FROM  member_details_janawad  WHERE date_of_birth = '0000-00-00'; 
+UPDATE member_details_janawad SET date_of_birth = DATE_SUB(admission_date, INTERVAL 20 Year) WHERE date_of_birth = '0000-00-00'; 
+ 
+ 
+PRATHAMIK KRUSHI PATTIN SAHAKARI SANGH NYT, JAINAPUR	KAROSHI BRANCH	THE BELAGAVI DISTRICT CENTRAL CO-OPERATIVE BANK LTD.	91150304025001	
+
+
+Select DISTINCT age_as_on_admission_date FROM member_details_janawad LIMIT 10;
+CustomerTypeDescription	MemberTypeDescription	AdmissionNo	MemberSurName	MemberName	FatherName	SpouseName	MemberNameRegional	FatherNameinRegional	SpouseNameinRegional	DOB	Age	AdmissionDate	GenderDescription	MaritalStatusDesc	CommunityDescription	CasteDescription	FarmerTypeDescription	Address1	Address2	VillageDescription	LedgerFolioNo	ContactNo	ShareBalance	ThriftBalance	DividentBalance	AdhaarCardNo	DCCBSBACNO	PacsIDPKey	BranchId
+
+SELECT 
+	customer_type, 
+	member_type,
+	admission_no,
+	surname,
+	member_name,
+	father_or_mother_name,
+	spouse_name,
+	'' AS MemberNameRegional,
+	'' AS FatherNameinRegional,
+	'' AS SpouseNameinRegional,
+	date_of_birth,
+	age_as_on_admission_date,
+	admission_date,
+	gender,
+	marital_status,
+	community,
+	caste,
+	farmer_type,
+	village,
+	'' AS address2,
+	village,
+	ledger_folio_no,
+	mobile_no,
+	share_balance,
+	'' AS ThriftBalance,
+	'' AS DividentBalance,
+	aadhar_card_no,
+	dccb_or_sb_or_other_bank_ac,
+	'91150304025001' AS PacsIDPKey,
+	'' AS BranchId
+FROM 
+	member_details_janawad;

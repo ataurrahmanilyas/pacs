@@ -1,0 +1,124 @@
+
+SELECT loan_no, CONCAT(loan_no, ' - ', SUBSTR(crop_purpose,1,1)) as loan_no_n, crop_purpose FROM  mt WHERE admission_no IN (99,727,495,69,1974,326,606,1366,790,1135,725,560,103,2457,460,1806,1155,101,890,2186,2388,893,249,400,2420,1741) && product = 'Long Term Agri Loans'  ORDER BY loan_no;
+
+SELECT loan_no, CONCAT(loan_no, ' - ', SUBSTR(crop_purpose,1,1)) as loan_no_n, crop_purpose FROM  mt WHERE admission_no IN (99,727,495,69,1974,326,606,1366,790,1135,725,560,103,2457,460,1806,1155,101,890,2186,2388,893,249,400,2420,1741) && product = 'Medium Term Agri Loans'  ORDER BY loan_no;
+
+
+SELECT
+	'' AS SlNo,
+	admission_no AS AdmissionNo,
+	product AS ProductDescription,
+	CONCAT(loan_no, ' - ', SUBSTR(crop_purpose,1,1)) AS LoanNo,
+	scheme AS Scheme,
+	crop_purpose AS PurposeDescription,
+	sanction_date AS SanctionedDate,
+	sanction_amount AS SanctionedAmount,
+	repayment_mode AS RepaymentFrequency,
+	loan_period_in_months AS LoanPeriod,
+	gestation_period AS GestationPeriod,
+	first_installment_due_date AS FirstInstallmentDate,
+	installment_amount AS InstallmentAmount,
+	due_date AS DueDate,
+	roi AS ROIPercentage,
+	penal_roi AS PenalROIPercentage,
+	roi_after_due_date AS IODPercentage,
+	la_no AS LANo,
+	lc_no AS LCNo,
+	lc_date AS LCDate,
+	dccb_no AS DCCBLoanAccountNo,
+	outstanding_principal_rs AS OutstandingPrincipal,
+	outstanding_interest_rs AS OutstandingInterest,
+	'91150108064001' AS PacsId,
+	'' AS BranchId
+FROM	
+	mt
+WHERE
+	product = 'Long Term Agri Loans' 
+  && admission_no IN (447,2007,1297,99,727,495,69,1974,326,606,1366,790,1135,725,560,103,2457,460,1806,1155,101,890,2186,2388,893,249,400,2420,1741);
+
+
+SELECT
+	'' AS SlNo,
+	admission_no AS AdmissionNo,
+	product AS ProductDescription,
+	CONCAT(loan_no, ' - ', SUBSTR(crop_purpose,1,1)) AS LoanNo,
+	scheme AS Scheme,
+	crop_purpose AS PurposeDescription,
+	sanction_date AS SanctionedDate,
+	sanction_amount AS SanctionedAmount,
+	repayment_mode AS RepaymentFrequency,
+	loan_period_in_months AS LoanPeriod,
+	gestation_period AS GestationPeriod,
+	first_installment_due_date AS FirstInstallmentDate,
+	installment_amount AS InstallmentAmount,
+	due_date AS DueDate,
+	roi AS ROIPercentage,
+	penal_roi AS PenalROIPercentage,
+	roi_after_due_date AS IODPercentage,
+	la_no AS LANo,
+	lc_no AS LCNo,
+	lc_date AS LCDate,
+	dccb_no AS DCCBLoanAccountNo,
+	outstanding_principal_rs AS OutstandingPrincipal,
+	outstanding_interest_rs AS OutstandingInterest,
+	'91150108064001' AS PacsId,
+	'' AS BranchId
+FROM	
+	mt
+WHERE
+	product = 'Medium Term Agri Loans' 
+  && admission_no IN (447,2007,1297,99,727,495,69,1974,326,606,1366,790,1135,725,560,103,2457,460,1806,1155,101,890,2186,2388,893,249,400,2420,1741);
+ 
+ //Disperse
+ SELECT
+	admission_no AS AdmissionNo,
+	product AS ProductDescription,
+	CONCAT(loan_no, ' - ', SUBSTR(crop_purpose,1,1)) AS LoanNo,
+	sanction_date AS TransactionDate,
+	ledger_folio_no AS LedgerFolioNo,
+	sanction_amount AS DisbursementAmount,
+	'0' AS OtherChargesDebitAmount,
+	'0' AS CollectedPrincipal,
+	'0' AS CollectedInterest,
+	'0' AS CollectedPenalInterest,
+	'0' AS CollectedIOD,
+	'0' AS CollectedOthers,
+	outstanding_principal_rs AS BalancePrincipal,
+	outstanding_interest_rs AS BalanceInterest,
+	'0' AS BalancePenalInterest,
+	'0' AS BalanceIOD,
+	'0' AS Charges,
+	'91150108064001' AS PacsId,
+	'' AS BranchId
+FROM	
+	mt
+WHERE
+	product = 'Long Term Agri Loans'
+	 && admission_no IN (447,2007,1297,99,727,495,69,1974,326,606,1366,790,1135,725,560,103,2457,460,1806,1155,101,890,2186,2388,893,249,400,2420,1741);
+	
+SELECT	
+	admission_no AS AdmissionNo,
+	product AS ProductDescription,
+	CONCAT(loan_no, ' - ', SUBSTR(crop_purpose,1,1)) AS LoanNo,
+	sanction_date AS TransactionDate,
+	ledger_folio_no AS LedgerFolioNo,
+	sanction_amount AS DisbursementAmount,
+	'0' AS OtherChargesDebitAmount,
+	'0' AS CollectedPrincipal,
+	'0' AS CollectedInterest,
+	'0' AS CollectedPenalInterest,
+	'0' AS CollectedIOD,
+	'0' AS CollectedOthers,
+	outstanding_principal_rs AS BalancePrincipal,
+	outstanding_interest_rs AS BalanceInterest,
+	'0' AS BalancePenalInterest,
+	'0' AS BalanceIOD,
+	'0' AS Charges,
+	'91150108064001' AS PacsId,
+	'' AS BranchId
+FROM	
+	mt
+WHERE
+	product = 'Medium Term Agri Loans'
+	 && admission_no IN (447,2007,1297,99,727,495,69,1974,326,606,1366,790,1135,725,560,103,2457,460,1806,1155,101,890,2186,2388,893,249,400,2420,1741);	
+

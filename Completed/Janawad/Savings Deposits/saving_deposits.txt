@@ -1,0 +1,210 @@
+PRODUCT	ACCOUNT NO.	DEPOSIT DATE	BALANCE	LEDGER FOLIO NO.	CHEQUE	OPERATION TYPE	IS ORGANIZATION	REGISTER SERIAL NO.	IS ACCOUNT DORMAT
+
+
+admission_no
+product
+account_no
+deposit_date
+balance
+ledger_folio_no
+cheque
+operation_type
+is_organization
+register_serial_no
+is_account_dormat
+
+TRUNCATE TABLE saving_deposits_raw;
+
+CREATE TABLE saving_deposits_raw(
+admission_no INT(11) NOT NULL DEFAULT 0,
+product VARCHAR(100) NOT NULL DEFAULT '',
+account_no VARCHAR(100) NOT NULL DEFAULT '',
+deposit_date VARCHAR(100) NOT NULL DEFAULT '',
+balance VARCHAR(100) NOT NULL DEFAULT '',
+ledger_folio_no VARCHAR(100) NOT NULL DEFAULT '',
+cheque VARCHAR(100) NOT NULL DEFAULT '',
+operation_type VARCHAR(100) NOT NULL DEFAULT '',
+is_organization VARCHAR(100) NOT NULL DEFAULT '',
+register_serial_no VARCHAR(100) NOT NULL DEFAULT '',
+is_account_dormat VARCHAR(100) NOT NULL DEFAULT '')
+ENGINE = InnoDB CHARSET = utf8;
+
+
+CREATE TABLE saving_deposits(
+admission_no INT(11) NOT NULL DEFAULT 0,
+product VARCHAR(100) NOT NULL DEFAULT '',
+account_no VARCHAR(100) NOT NULL DEFAULT '',
+deposit_date DATE NOT NULL,
+balance VARCHAR(100) NOT NULL DEFAULT '',
+ledger_folio_no VARCHAR(100) NOT NULL DEFAULT '',
+cheque VARCHAR(100) NOT NULL DEFAULT '',
+operation_type VARCHAR(100) NOT NULL DEFAULT '',
+is_organization VARCHAR(100) NOT NULL DEFAULT '',
+register_serial_no VARCHAR(100) NOT NULL DEFAULT '',
+is_account_dormat VARCHAR(100) NOT NULL DEFAULT '')
+ENGINE = InnoDB CHARSET = utf8;
+
+
+TRUNCATE TABLE saving_deposits;
+
+ALTER TABLE saving_deposits ADD INDEX idx_admission_no(admission_no);
+ALTER TABLE saving_deposits ADD INDEX idx_product(product);
+ALTER TABLE saving_deposits ADD INDEX idx_deposit_date(deposit_date);
+
+
+INSERT INTO saving_deposits SELECT
+	admission_no,
+	product,
+	account_no,
+	STR_TO_DATE(deposit_date,'%d-%m-%Y'),
+	balance,
+	ledger_folio_no,
+	cheque,
+	operation_type,
+	is_organization,
+	register_serial_no,
+	is_account_dormat
+FROM
+	saving_deposits_raw; 
+
+
+SELECT COUNT(admission_no), COUNT(1) FROM saving_deposits;
+SELECT COUNT(admission_no), COUNT(1) FROM saving_deposits;
+SELECT product, COUNT(1), SUM(balance), SUM(balance)  FROM saving_deposits GROUP BY product;
+
+
+
+
+//Check all the admission no are present in the saving_deposits from the member details table
+SELECT 
+	t1.admission_no,
+	t2.admission_no
+FROM
+	saving_deposits AS t1
+INNER JOIN
+	member_details AS t2
+ON
+	t1.admission_no = t2.admission_no LIMIT 10;
+
+SELECT 
+	COUNT(t1.admission_no),
+	COUNT(t2.admission_no)
+FROM
+	saving_deposits AS t1
+INNER JOIN
+	member_details AS t2
+ON
+	t1.admission_no = t2.admission_no LIMIT 10;
+
+SELECT 
+	DISTINCT t1.admission_no,
+	t2.admission_no
+FROM
+	saving_deposits AS t1
+LEFT JOIN
+	member_details AS t2
+ON
+	t1.admission_no = t2.admission_no
+WHERE
+	t2.admission_no IS NULL
+LIMIT 10;
+
+SELECT 
+	COUNT(DISTINCT t1.admission_no),
+	COUNT(DISTINCT t2.admission_no)
+FROM
+	saving_deposits AS t1
+RIGHT JOIN
+	member_details AS t2
+ON
+	t1.admission_no = t2.admission_no
+WHERE
+	t1.admission_no IS NULL;
+
+SELECT 
+	DISTINCT t1.admission_no,
+	t2.admission_no
+FROM
+	saving_deposits AS t1
+RIGHT JOIN
+	member_details AS t2
+ON
+	t1.admission_no = t2.admission_no
+WHERE
+	t1.admission_no IS NULL
+LIMIT 10;
+//Check all the admission no are present in the saving_deposits from the member details table
+
+//Check admission date is greater than sanction date
+
+SELECT 
+	t1.admission_no,
+	t2.admission_date,
+	t1.deposit_date
+FROM
+	saving_deposits AS t1
+INNER JOIN
+	member_details AS t2
+ON
+	t1.admission_no = t2.admission_no
+WHERE
+	t2.admission_date > t1.deposit_date
+LIMIT 10;
+
+
+SELECT DISTINCT operation_type FROM saving_deposits LIMIT 10;
+
+UPDATE saving_deposits SET operation_type = 'Single' WHERE operation_type = 'Single';
+UPDATE saving_deposits SET operation_type = 'Single' WHERE operation_type = '';
+
+SELECT DISTINCT product FROM saving_deposits LIMIT 10;
+
+UPDATE saving_deposits SET product = 'Saving Deposits' WHERE product = 'Saving Deposite';
+
+
+SELECT DISTINCT cheque FROM saving_deposits LIMIT 10;
+
+UPDATE saving_deposits SET cheque = 'No' WHERE cheque = 'No';
+UPDATE saving_deposits SET cheque = 'No' WHERE cheque = '';
+
+
+SELECT DISTINCT is_organization FROM saving_deposits LIMIT 10;
+
+UPDATE saving_deposits SET is_organization = 'No' WHERE is_organization = 'No';
+UPDATE saving_deposits SET is_organization = 'No' WHERE is_organization = '';
+
+
+AdmissionNo	ProductDescription	AccountNo	DepositDate	IntroducerNo	ChequeOption	OperationTypeDesc	IsOrganisation	RegisterSlNo	Balance	LedgerFolioNo	JointAdmissionNo	PacsIDPkey
+
+admission_no
+product
+account_no
+deposit_date
+balance
+ledger_folio_no
+cheque
+operation_type
+is_organization
+register_serial_no
+is_account_dormat
+
+SELECT DISTINCT product FROM saving_deposits;
+
+SELECT
+	admission_no AS AdmissionNo,
+	product AS ProductDescription,
+	account_no AS AccountNo,
+	deposit_date AS DepositDate,
+	0 AS IntroducerNo,
+	cheque AS ChequeOption,
+	operation_type AS OperationTypeDesc,
+	is_organization AS IsOrganisation,
+	register_serial_no AS RegisterSlNo,
+	balance AS Balance,
+	ledger_folio_no AS LedgerFolioNo,
+	'' AS JointAdmissionNo,
+	'91150108064001' AS PacsIDPkey
+FROM	
+	saving_deposits
+WHERE
+	product = 'Saving Deposits' ;

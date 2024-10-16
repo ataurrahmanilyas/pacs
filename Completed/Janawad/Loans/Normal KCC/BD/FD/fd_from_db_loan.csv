@@ -1,0 +1,5 @@
+"SlNo","ProductDescription","AdmissionNo","LoanNo","PurposeDescription","SanctionedDate","SanctionedAmount","LoanPeriod","DueDate","ROI","PenalROI","IOD","LedgerFolioNo","OutstandingPrincipal","OutstandingInterest","PacsId","BranchId"
+,"FD Loan","683","2","Deposit Loans","2024-03-12","60000","12","2025-03-12","12","0.01","12.01",,"60000","7200","91150301037001",
+,"FD Loan","786","3","Deposit Loans","2021-11-29","10000","12","2022-11-29","12","0.01","12.01",,"10000","1200","91150301037001",
+,"FD Loan","182","5","Deposit Loans","2023-04-19","80000","12","2024-04-18","12","0.01","12.01",,"80000","9600","91150301037001",
+,"FD Loan","556","12","Deposit Loans","2024-02-05","80000","12","2025-02-04","12","0.01","12.01",,"80000","9600","91150301037001",

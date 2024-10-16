@@ -1,0 +1,386 @@
+ADMISSION NO.	LOAN TYPE	PRODUCT	LOAN NO.	CROP / PURPOSE	LEDGER FOLIO NO.	SCHEME	SANCTION DATE	SANCTION AMOUNT	Loan Period( In Months)	Due Date	ROI	Penal ROI	ROI After Due Date	REPAYMENT MODE	GESTATION PERIOD	FIRST INSTALLMENT DUE DATE	INSTALLMENT AMOUNT	DPN NO.	LA NO.	LC NO.	LC DATE	DCCB NO.	Outstanding Principal (Rs.)	Outstanding Interest (Rs.)
+
+
+CREATE TABLE loan_raw(
+admission_no INT(11) NOT NULL DEFAULT 0,
+loan_type VARCHAR(100) NOT NULL DEFAULT '',
+product VARCHAR(100) NOT NULL DEFAULT '',
+loan_no VARCHAR(100) NOT NULL DEFAULT '',
+crop_purpose VARCHAR(100) NOT NULL DEFAULT '',
+ledger_folio_no VARCHAR(100) NOT NULL DEFAULT '',
+scheme VARCHAR(100) NOT NULL DEFAULT '',
+sanction_date VARCHAR(100) NOT NULL DEFAULT '',
+sanction_amount VARCHAR(100) NOT NULL DEFAULT '',
+loan_period_in_months VARCHAR(100) NOT NULL DEFAULT '',
+due_date VARCHAR(100) NOT NULL DEFAULT '',
+roi VARCHAR(100) NOT NULL DEFAULT '',
+penal_roi VARCHAR(100) NOT NULL DEFAULT '',
+roi_after_due_date VARCHAR(100) NOT NULL DEFAULT '',
+repayment_mode VARCHAR(100) NOT NULL DEFAULT '',
+gestation_period VARCHAR(100) NOT NULL DEFAULT '',
+first_installment_due_date VARCHAR(100) NOT NULL DEFAULT '',
+installment_amount VARCHAR(100) NOT NULL DEFAULT '',
+dpn_no VARCHAR(100) NOT NULL DEFAULT '',
+la_no VARCHAR(100) NOT NULL DEFAULT '',
+lc_no VARCHAR(100) NOT NULL DEFAULT '',
+lc_date VARCHAR(100) NOT NULL DEFAULT '',
+dccb_no VARCHAR(100) NOT NULL DEFAULT '',
+outstanding_principal_rs VARCHAR(100) NOT NULL DEFAULT '',
+outstanding_interest_rs VARCHAR(100) NOT NULL DEFAULT '')
+ENGINE = InnoDB CHARSET = utf8;
+
+
+CREATE TABLE loan(
+admission_no INT(11) NOT NULL DEFAULT 0,
+loan_type VARCHAR(100) NOT NULL DEFAULT '',
+product VARCHAR(100) NOT NULL DEFAULT '',
+loan_no VARCHAR(100) NOT NULL DEFAULT '',
+crop_purpose VARCHAR(100) NOT NULL DEFAULT '',
+ledger_folio_no VARCHAR(100) NOT NULL DEFAULT '',
+scheme VARCHAR(100) NOT NULL DEFAULT '',
+sanction_date DATE NOT NULL,
+sanction_amount VARCHAR(100) NOT NULL DEFAULT '',
+loan_period_in_months VARCHAR(100) NOT NULL DEFAULT '',
+due_date DATE NOT NULL ,
+roi VARCHAR(100) NOT NULL DEFAULT '',
+penal_roi VARCHAR(100) NOT NULL DEFAULT '',
+roi_after_due_date VARCHAR(100) NOT NULL DEFAULT '',
+repayment_mode VARCHAR(100) NOT NULL DEFAULT '',
+gestation_period VARCHAR(100) NOT NULL DEFAULT '',
+first_installment_due_date DATE NOT NULL ,
+installment_amount VARCHAR(100) NOT NULL DEFAULT '',
+dpn_no VARCHAR(100) NOT NULL DEFAULT '',
+la_no VARCHAR(100) NOT NULL DEFAULT '',
+lc_no VARCHAR(100) NOT NULL DEFAULT '',
+lc_date VARCHAR(100) NOT NULL DEFAULT '',
+dccb_no VARCHAR(100) NOT NULL DEFAULT '',
+outstanding_principal_rs VARCHAR(100) NOT NULL DEFAULT '',
+outstanding_interest_rs VARCHAR(100) NOT NULL DEFAULT '')
+ENGINE = InnoDB CHARSET = utf8;
+
+TRUNCATE TABLE loan;
+
+ALTER TABLE loan ADD INDEX idx_admission_no(admission_no);
+ALTER TABLE loan ADD INDEX idx_product(product);
+ALTER TABLE loan ADD INDEX idx_sanction_date(sanction_date);
+ALTER TABLE loan ADD INDEX idx_sanction_amount(sanction_amount);
+ALTER TABLE loan ADD INDEX idx_due_date(due_date);
+
+
+INSERT INTO loan SELECT
+	admission_no,
+	loan_type,
+	product,
+	loan_no,
+	crop_purpose,
+	ledger_folio_no,
+	scheme,
+	STR_TO_DATE(sanction_date,'%d-%m-%Y'),
+	sanction_amount,
+	loan_period_in_months,
+	STR_TO_DATE(due_date,'%d-%m-%Y'),
+	roi,
+	penal_roi,
+	roi_after_due_date,
+	repayment_mode,
+	gestation_period,
+	STR_TO_DATE(first_installment_due_date,'%d-%m-%Y'),
+	installment_amount,
+	dpn_no,
+	la_no,
+	lc_no,
+	lc_date,
+	dccb_no,
+	outstanding_principal_rs,
+	outstanding_interest_rs
+FROM
+	loan_raw; 
+
+
+SELECT COUNT(admission_no), COUNT(1) FROM loan;
+SELECT COUNT(admission_no), COUNT(1) FROM loan;
+SELECT product, COUNT(1), SUM(sanction_amount), SUM(outstanding_principal_rs)  FROM loan GROUP BY product;
+
+
+
+
+//Check all the admission no are present in the loan from the member details table
+SELECT 
+	t1.admission_no,
+	t2.admission_no
+FROM
+	loan AS t1
+INNER JOIN
+	member_details AS t2
+ON
+	t1.admission_no = t2.admission_no LIMIT 10;
+
+SELECT 
+	COUNT(t1.admission_no),
+	COUNT(t2.admission_no)
+FROM
+	loan AS t1
+INNER JOIN
+	member_details AS t2
+ON
+	t1.admission_no = t2.admission_no LIMIT 10;
+
+SELECT 
+	DISTINCT t1.admission_no,
+	t2.admission_no
+FROM
+	loan AS t1
+LEFT JOIN
+	member_details AS t2
+ON
+	t1.admission_no = t2.admission_no
+WHERE
+	t2.admission_no IS NULL
+LIMIT 10;
+
+SELECT 
+	COUNT(DISTINCT t1.admission_no),
+	COUNT(DISTINCT t2.admission_no)
+FROM
+	loan AS t1
+RIGHT JOIN
+	member_details AS t2
+ON
+	t1.admission_no = t2.admission_no
+WHERE
+	t1.admission_no IS NULL;
+
+SELECT 
+	DISTINCT t1.admission_no,
+	t2.admission_no
+FROM
+	loan AS t1
+RIGHT JOIN
+	member_details AS t2
+ON
+	t1.admission_no = t2.admission_no
+WHERE
+	t1.admission_no IS NULL
+LIMIT 10;
+//Check all the admission no are present in the loan from the member details table
+
+//Check admission date is greater than sanction date
+
+SELECT 
+	t1.admission_no,
+	t2.admission_date,
+	t1.sanction_date
+FROM
+	loan AS t1
+INNER JOIN
+	member_details AS t2
+ON
+	t1.admission_no = t2.admission_no
+WHERE
+	t2.admission_date > t1.sanction_date
+LIMIT 10;
+
+UPDATE loan SET sanction_date = '2019-07-26' WHERE admission_no = 1974;
+UPDATE loan SET sanction_date = '2023-02-21' WHERE admission_no = 2457;
+
+SELECT DISTINCT loan_type FROM loan LIMIT 10;
+
+UPDATE loan SET loan_type = 'Term Loans- loan & LT' WHERE loan_type = 'Term Loans - loan & LT';
+
+SELECT DISTINCT product FROM loan LIMIT 10;
+
+UPDATE loan SET product = 'Medium Term Agri Loans' WHERE product = 'Medium Term Agri Loans';
+
+UPDATE loan SET product = 'Long Term Agri Loans' WHERE product = 'Own Fund loan Loans';
+
+
+SELECT DISTINCT crop_purpose FROM loan LIMIT 10;
+
+UPDATE loan SET crop_purpose = 'Pipe Line-LTO' WHERE crop_purpose = 'Pipe Line-LTO';
+UPDATE loan SET crop_purpose = 'Dairy LTO' WHERE crop_purpose = 'Dairy Loan';
+UPDATE loan SET crop_purpose = 'Poultry-loanO' WHERE crop_purpose = 'Poultry Loan';
+UPDATE loan SET crop_purpose = 'Tractors-LTO' WHERE crop_purpose = 'Tractor Loan';
+UPDATE loan SET crop_purpose = 'Land Development / Land Purchase' WHERE crop_purpose = 'Land Development';
+
+
+SELECT DISTINCT scheme FROM loan LIMIT 10;
+
+UPDATE loan SET scheme = 'Normal' WHERE scheme = 'Normal';
+
+SELECT DISTINCT outstanding_interest_rs FROM loan LIMIT 10;
+
+UPDATE loan SET outstanding_interest_rs = '0' WHERE outstanding_interest_rs = '';
+
+
+
+SlNo	ProductDescription	AdmissionNo	LoanNo	Scheme	CropDescription	SanctionedDate	SanctionedAmount	LoanPeriod	DueDate	ROIPercentage	PenalROIPercentage	IODPercentage	OutstandingPrincipal	OutstandingInterest	PacsId	BranchId
+
+
+SELECT
+	'' AS SlNo,
+	product AS ProductDescription,
+	AdmissionNo,
+	LoanNo,
+	PurposeDescription,
+	SanctionedDate,
+	SanctionedAmount,
+	LoanPeriod,
+	DueDate,
+	ROI,
+	PenalROI,
+	IOD,
+	LedgerFolioNo,
+	OutstandingPrincipal,
+	OutstandingInterest,
+	'91150108064001' AS PacsId,
+	'' AS BranchId
+SlNo	AdmissionNo	ProductDescription	LoanNo	Scheme	PurposeDescription	SanctionedDate	SanctionedAmount	RepaymentFrequency	LoanPeriod	GestationPeriod	FirstInstallmentDate	InstallmentAmount	DueDate	ROIPercentage	PenalROIPercentage	IODPercentage	LANo	LCNo	LCDate	DCCBLoanAccountNo	OutstandingPrincipal	OutstandingInterest	PacsId	BranchId
+
+UPDATE loan SET repayment_mode = 'Quarterly' WHERE repayment_mode = '';
+
+UPDATE loan SET repayment_mode = 'Quarterly' WHERE repayment_mode = 'Quarterly';
+
+UPDATE loan SET gestation_period = '0' WHERE gestation_period = '';
+
+SELECT
+	'' AS SlNo,
+	admission_no AS AdmissionNo,
+	product AS ProductDescription,
+	loan_no AS LoanNo,
+	scheme AS Scheme,
+	crop_purpose AS PurposeDescription,
+	sanction_date AS SanctionedDate,
+	sanction_amount AS SanctionedAmount,
+	repayment_mode AS RepaymentFrequency,
+	loan_period_in_months AS LoanPeriod,
+	gestation_period AS GestationPeriod,
+	first_installment_due_date AS FirstInstallmentDate,
+	installment_amount AS InstallmentAmount,
+	due_date AS DueDate,
+	roi AS ROIPercentage,
+	penal_roi AS PenalROIPercentage,
+	roi_after_due_date AS IODPercentage,
+	la_no AS LANo,
+	lc_no AS LCNo,
+	lc_date AS LCDate,
+	dccb_no AS DCCBLoanAccountNo,
+	outstanding_principal_rs AS OutstandingPrincipal,
+	outstanding_interest_rs AS OutstandingInterest,
+	'91150108064001' AS PacsId,
+	'' AS BranchId
+FROM	
+	loan
+WHERE
+	product = 'Long Term Agri Loans' ;
+
+SELECT DISTINCT product FROM loan;	
+SELECT
+	'' AS SlNo,
+	admission_no AS AdmissionNo,
+	product AS ProductDescription,
+	loan_no AS LoanNo,
+	scheme AS Scheme,
+	crop_purpose AS PurposeDescription,
+	sanction_date AS SanctionedDate,
+	sanction_amount AS SanctionedAmount,
+	repayment_mode AS RepaymentFrequency,
+	loan_period_in_months AS LoanPeriod,
+	gestation_period AS GestationPeriod,
+	first_installment_due_date AS FirstInstallmentDate,
+	installment_amount AS InstallmentAmount,
+	due_date AS DueDate,
+	roi AS ROIPercentage,
+	penal_roi AS PenalROIPercentage,
+	roi_after_due_date AS IODPercentage,
+	la_no AS LANo,
+	lc_no AS LCNo,
+	lc_date AS LCDate,
+	dccb_no AS DCCBLoanAccountNo,
+	outstanding_principal_rs AS OutstandingPrincipal,
+	outstanding_interest_rs AS OutstandingInterest,
+	'91150108064001' AS PacsId,
+	'' AS BranchId
+FROM	
+	loan
+WHERE
+	product = 'Medium Term Agri Loans';
+
+
+UPDATE loan  SET roi = 15, penal_roi = 3, roi_after_due_date = 18, loan_period_in_months = 12 WHERE product = 'Salary Loan Others OL';
+SELECT
+	'' AS SlNo,
+	product AS ProductDescription,
+	admission_no AS AdmissionNo,
+	loan_no AS LoanNo,
+	crop_purpose AS PurposeDescription,
+	sanction_date AS SanctionedDate,
+	sanction_amount AS SanctionedAmount,
+	loan_period_in_months AS LoanPeriod,
+	due_date AS DueDate,
+	roi AS ROI,
+	penal_roi AS PenalROI,
+	roi_after_due_date AS IOD,
+	ledger_folio_no LedgerFolioNo,
+	outstanding_principal_rs AS OutstandingPrincipal,
+	outstanding_interest_rs AS OutstandingInterest,
+	'91150108064001' AS PacsId,
+	'' AS BranchId
+FROM	
+	loan
+WHERE
+	product = 'Long Term Agri Loans' 
+
+
+//Disperse	
+SELECT
+	
+	admission_no AS AdmissionNo,
+	product AS ProductDescription,
+	loan_no AS LoanNo,
+	sanction_date AS TransactionDate,
+	ledger_folio_no AS LedgerFolioNo,
+	sanction_amount AS DisbursementAmount,
+	'0' AS OtherChargesDebitAmount,
+	'0' AS CollectedPrincipal,
+	'0' AS CollectedInterest,
+	'0' AS CollectedPenalInterest,
+	'0' AS CollectedIOD,
+	'0' AS CollectedOthers,
+	outstanding_principal_rs AS BalancePrincipal,
+	outstanding_interest_rs AS BalanceInterest,
+	'0' AS BalancePenalInterest,
+	'0' AS BalanceIOD,
+	'0' AS Charges,
+	'91150108064001' AS PacsId,
+	'' AS BranchId
+FROM	
+	loan
+WHERE
+	product = 'Small Business Development Loan';
+	
+SELECT
+	
+	admission_no AS AdmissionNo,
+	product AS ProductDescription,
+	loan_no AS LoanNo,
+	sanction_date AS TransactionDate,
+	ledger_folio_no AS LedgerFolioNo,
+	sanction_amount AS DisbursementAmount,
+	'0' AS OtherChargesDebitAmount,
+	'0' AS CollectedPrincipal,
+	'0' AS CollectedInterest,
+	'0' AS CollectedPenalInterest,
+	'0' AS CollectedIOD,
+	'0' AS CollectedOthers,
+	outstanding_principal_rs AS BalancePrincipal,
+	outstanding_interest_rs AS BalanceInterest,
+	'0' AS BalancePenalInterest,
+	'0' AS BalanceIOD,
+	'0' AS Charges,
+	'91150108064001' AS PacsId,
+	'' AS BranchId
+FROM	
+	loan
+WHERE
+	product = 'Salary Loan Others OL ';
+

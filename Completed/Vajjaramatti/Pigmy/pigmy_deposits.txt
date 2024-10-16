@@ -1,0 +1,121 @@
+CREATE TABLE pigmy_deposit_raw(
+admission_no INT(11) NOT NULL DEFAULT 0,
+product VARCHAR(100) NOT NULL DEFAULT '',
+agent_name VARCHAR(100) NOT NULL DEFAULT '',
+account_no VARCHAR(100) NOT NULL DEFAULT '',
+deposit_date VARCHAR(100) NOT NULL DEFAULT '',
+operation_type VARCHAR(100) NOT NULL DEFAULT '',
+installment_amount VARCHAR(100) NOT NULL DEFAULT '',
+frequency VARCHAR(100) NOT NULL DEFAULT '',
+period_in_years VARCHAR(100) NOT NULL DEFAULT '',
+period_in_months VARCHAR(100) NOT NULL DEFAULT '',
+maturity_date VARCHAR(100) NOT NULL DEFAULT '',
+rate_of_interest VARCHAR(100) NOT NULL DEFAULT '',
+total_amount_collected VARCHAR(100) NOT NULL DEFAULT '',
+ledger_folio_no VARCHAR(100) NOT NULL DEFAULT '')
+ENGINE = InnoDB CHARSET = utf8;
+
+
+CREATE TABLE pigmy_deposit(
+admission_no INT(11) NOT NULL DEFAULT 0,
+product VARCHAR(100) NOT NULL DEFAULT '',
+agent_name VARCHAR(100) NOT NULL DEFAULT '',
+account_no VARCHAR(100) NOT NULL DEFAULT '',
+deposit_date DATE NOT NULL,
+operation_type VARCHAR(100) NOT NULL DEFAULT '',
+installment_amount VARCHAR(100) NOT NULL DEFAULT '',
+frequency VARCHAR(100) NOT NULL DEFAULT '',
+period_in_years VARCHAR(100) NOT NULL DEFAULT '',
+period_in_months VARCHAR(100) NOT NULL DEFAULT '',
+maturity_date DATE NOT NULL,
+rate_of_interest VARCHAR(100) NOT NULL DEFAULT '',
+total_amount_collected VARCHAR(100) NOT NULL DEFAULT '',
+ledger_folio_no VARCHAR(100) NOT NULL DEFAULT '')
+ENGINE = InnoDB CHARSET = utf8;
+
+
+ALTER TABLE pigmy_deposit ADD INDEX idx_admission_no(admission_no);
+ALTER TABLE pigmy_deposit ADD INDEX idx_account_no(account_no);
+ALTER TABLE pigmy_deposit ADD INDEX idx_deposit_date(deposit_date);
+ALTER TABLE pigmy_deposit ADD INDEX idx_maturity_date(maturity_date);
+
+
+DELETE FROM `pigmy_deposit_raw` WHERE `admission_no` = 0;
+
+INSERT INTO pigmy_deposit SELECT
+	admission_no,
+	product,
+	agent_name,
+	account_no,
+	STR_TO_DATE(deposit_date,'%d-%m-%Y'),
+	operation_type,
+	installment_amount,
+	frequency,
+	period_in_years,
+	period_in_months,
+	STR_TO_DATE(maturity_date,'%d-%m-%Y'),
+	rate_of_interest,
+	total_amount_collected,
+	ledger_folio_no
+FROM
+	pigmy_deposit_raw;
+	
+	
+
+
+SELECT 
+	DISTINCT t1.admission_no,
+	t2.admission_no
+FROM
+	pigmy_deposit AS t1
+LEFT JOIN
+	member_details AS t2
+ON
+	t1.admission_no = t2.admission_no
+WHERE
+	t2.admission_no IS NULL
+LIMIT 10;	
+
+
+SELECT 
+	t1.admission_no,
+	t2.admission_date,
+	t1.deposit_date
+FROM
+	pigmy_deposit AS t1
+INNER JOIN
+	member_details AS t2
+ON
+	t1.admission_no = t2.admission_no
+WHERE
+	t2.admission_date > t1.deposit_date
+LIMIT 10;
+
+
+UPDATE `pigmy_deposit` SET agent_name = ' ANGADI MANJUNATH' WHERE agent_name = 'M M ANGADI';
+
+UPDATE `pigmy_deposit` SET product = 'Pigmy Deposits' WHERE product = 'Pigmy Deposit';
+
+AdmissionNo	ProductDescription	AccountNo	DepositDate	OperationTypeDesc	InstallmentAmount	PeriodinMonths	PeriodinYears	MaturityDate	TotalAmount	RateOfInterest	AgentNo	FrequencyDescription	LedgerFolioNo	IsPayable	TotalInterestAmount	PacsIDPKey	BranchId
+
+AdmissionNo	ProductDescription	AgentName	AgentNo	AccountNo	DepositDate	OperationType	InstallmentAmount	Frequency	PeriodInYears	PeriodInMonths	MaturityDate	RateOfInterest	TotalAmountCollected	LedgerFolioNo
+
+
+SELECT
+ admission_no AS AdmissionNo,
+ product AS ProductDescription,
+ agent_name AS AgentName,
+ '1' AS AgentNo,
+ account_no AS AccountNo,
+ deposit_date AS DepositDate,
+ operation_type AS OperationType,
+ installment_amount AS InstallmentAmount,
+ frequency AS Frequency, 
+ period_in_years AS PeriodinYears,
+ period_in_months AS PeriodinMonths,
+ maturity_date AS MaturityDate, 
+ rate_of_interest AS RateOfInterest,
+ total_amount_collected AS TotalAmountCollected, 
+ ledger_folio_no AS LedgerFolioNo 
+FROM
+	pigmy_deposit;

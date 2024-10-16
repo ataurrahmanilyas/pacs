@@ -1,0 +1,468 @@
+ADMISSION NO.,LOAN TYPE,PRODUCT,LOAN NO.,CROP / PURPOSE,LEDGER FOLIO NO.,SCHEME,SANCTION DATE,SANCTION AMOUNT,Loan Period( In Months),Due Date,ROI,Penal ROI,ROI After Due Date,REPAYMENT MODE,GESTATION PERIOD,FIRST INSTALLMENT DUE DATE,INSTALLMENT AMOUNT,DPN NO.,LA NO.,LC NO.,LC DATE,DCCB NO.,Outstanding Principal (Rs.),Outstanding Interest (Rs.)
+2,Short Term - Crop Loans,Normal KCC,1,Sugar Cane Plant,,Normal,19-06-2023,80000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,80000,0
+4,Short Term - Crop Loans,Normal KCC,2,Sugar Cane Plant,,Normal,19-06-2023,60000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,60000,0
+5,Short Term - Crop Loans,Normal KCC,3,Sugar Cane Plant,,Normal,19-06-2023,80000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,80000,0
+6,Short Term - Crop Loans,Normal KCC,4,Sugar Cane Plant,,Normal,19-06-2023,15000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,15000,0
+7,Short Term - Crop Loans,Normal KCC,5,Sugar Cane Plant,,Normal,19-06-2023,140000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,140000,0
+8,Short Term - Crop Loans,Normal KCC,6,Sugar Cane Plant,,Normal,19-06-2023,150000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,150000,0
+74,Short Term - Crop Loans,Normal KCC,8,Sugar Cane Plant,,Normal,19-06-2023,30000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,30000,0
+9,Short Term - Crop Loans,Normal KCC,9,Sugar Cane Plant,,Normal,19-06-2023,15000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,15000,0
+10,Short Term - Crop Loans,Normal KCC,10,Sugar Cane Plant,,Normal,19-06-2023,70000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,70000,0
+11,Short Term - Crop Loans,Normal KCC,11,Sugar Cane Plant,,Normal,19-06-2023,70000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,70000,0
+12,Short Term - Crop Loans,Normal KCC,12,Sugar Cane Plant,,Normal,19-06-2023,70000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,70000,0
+13,Short Term - Crop Loans,Normal KCC,13,Sugar Cane Plant,,Normal,19-06-2023,60000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,60000,0
+17,Short Term - Crop Loans,Normal KCC,14,Sugar Cane Plant,,Normal,19-06-2023,45000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,45000,0
+18,Short Term - Crop Loans,Normal KCC,15,Sugar Cane Plant,,Normal,19-06-2023,45000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,45000,0
+23,Short Term - Crop Loans,Normal KCC,16,Sugar Cane Plant,,Normal,19-06-2023,25000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,25000,0
+25,Short Term - Crop Loans,Normal KCC,17,Sugar Cane Plant,,Normal,19-06-2023,80000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,80000,0
+28,Short Term - Crop Loans,Normal KCC,18,Sugar Cane Plant,,Normal,19-06-2023,80000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,80000,0
+29,Short Term - Crop Loans,Normal KCC,19,Sugar Cane Plant,,Normal,19-06-2023,100000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,100000,0
+30,Short Term - Crop Loans,Normal KCC,20,Sugar Cane Plant,,Normal,19-06-2023,18000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,18000,0
+31,Short Term - Crop Loans,Normal KCC,21,Sugar Cane Plant,,Normal,19-06-2023,35000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,35000,0
+34,Short Term - Crop Loans,Normal KCC,22,Sugar Cane Plant,,Normal,19-06-2023,35000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,35000,0
+35,Short Term - Crop Loans,Normal KCC,23,Sugar Cane Plant,,Normal,19-06-2023,35000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,35000,0
+36,Short Term - Crop Loans,Normal KCC,24,Sugar Cane Plant,,Normal,19-06-2023,35000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,35000,0
+37,Short Term - Crop Loans,Normal KCC,25,Sugar Cane Plant,,Normal,19-06-2023,23000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,23000,0
+38,Short Term - Crop Loans,Normal KCC,26,Sugar Cane Plant,,Normal,19-06-2023,80000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,80000,0
+40,Short Term - Crop Loans,Normal KCC,27,Sugar Cane Plant,,Normal,19-06-2023,23000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,23000,0
+41,Short Term - Crop Loans,Normal KCC,28,Sugar Cane Plant,,Normal,19-06-2023,12000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,12000,0
+42,Short Term - Crop Loans,Normal KCC,29,Sugar Cane Plant,,Normal,19-06-2023,23000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,23000,0
+44,Short Term - Crop Loans,Normal KCC,30,Sugar Cane Plant,,Normal,19-06-2023,23000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,23000,0
+43,Short Term - Crop Loans,Normal KCC,31,Sugar Cane Plant,,Normal,19-06-2023,4500,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,4500,0
+45,Short Term - Crop Loans,Normal KCC,32,Sugar Cane Plant,,Normal,19-06-2023,12000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,12000,0
+46,Short Term - Crop Loans,Normal KCC,33,Sugar Cane Plant,,Normal,19-06-2023,23000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,23000,0
+47,Short Term - Crop Loans,Normal KCC,34,Sugar Cane Plant,,Normal,19-06-2023,4500,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,4500,0
+48,Short Term - Crop Loans,Normal KCC,35,Sugar Cane Plant,,Normal,19-06-2023,23000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,23000,0
+49,Short Term - Crop Loans,Normal KCC,36,Sugar Cane Plant,,Normal,19-06-2023,4500,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,4500,0
+50,Short Term - Crop Loans,Normal KCC,37,Sugar Cane Plant,,Normal,19-06-2023,65000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,65000,0
+52,Short Term - Crop Loans,Normal KCC,38,Sugar Cane Plant,,Normal,19-06-2023,65000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,65000,0
+54,Short Term - Crop Loans,Normal KCC,39,Sugar Cane Plant,,Normal,19-06-2023,65000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,65000,0
+55,Short Term - Crop Loans,Normal KCC,40,Sugar Cane Plant,,Normal,19-06-2023,65000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,65000,0
+62,Short Term - Crop Loans,Normal KCC,44,Sugar Cane Plant,,Normal,19-06-2023,15000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,15000,0
+70,Short Term - Crop Loans,Normal KCC,48,Sugar Cane Plant,,Normal,19-06-2023,28000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,28000,0
+69,Short Term - Crop Loans,Normal KCC,50,Sugar Cane Plant,,Normal,19-06-2023,18000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,18000,0
+26,Short Term - Crop Loans,Normal KCC,51,Sugar Cane Plant,,Normal,19-06-2023,60000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,60000,0
+63,Short Term - Crop Loans,Normal KCC,53,Sugar Cane Plant,,Normal,19-06-2023,80000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,80000,0
+27,Short Term - Crop Loans,Normal KCC,54,Sugar Cane Plant,,Normal,19-06-2023,100000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,100000,0
+81,Short Term - Crop Loans,Normal KCC,55,Sugar Cane Plant,,Normal,19-06-2023,80000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,80000,0
+82,Short Term - Crop Loans,Normal KCC,56,Sugar Cane Plant,,Normal,19-06-2023,70000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,70000,0
+80,Short Term - Crop Loans,Normal KCC,57,Sugar Cane Plant,,Normal,19-06-2023,39000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,39000,0
+67,Short Term - Crop Loans,Normal KCC,59,Sugar Cane Plant,,Normal,19-06-2023,95000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,95000,0
+78,Short Term - Crop Loans,Normal KCC,61,Sugar Cane Plant,,Normal,19-06-2023,4500,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,4500,0
+79,Short Term - Crop Loans,Normal KCC,62,Sugar Cane Plant,,Normal,19-06-2023,4500,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,4500,0
+83,Short Term - Crop Loans,Normal KCC,63,Sugar Cane Plant,,Normal,19-06-2023,10000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,10000,0
+77,Short Term - Crop Loans,Normal KCC,64,Sugar Cane Plant,,Normal,19-06-2023,4500,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,4500,0
+76,Short Term - Crop Loans,Normal KCC,66,Sugar Cane Plant,,Normal,19-06-2023,4500,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,4500,0
+51,Short Term - Crop Loans,Normal KCC,67,Sugar Cane Plant,,Normal,19-06-2023,10000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,10000,0
+53,Short Term - Crop Loans,Normal KCC,68,Sugar Cane Plant,,Normal,19-06-2023,9600,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,9600,0
+61,Short Term - Crop Loans,Normal KCC,69,Sugar Cane Plant,,Normal,19-06-2023,8000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,8000,0
+60,Short Term - Crop Loans,Normal KCC,70,Sugar Cane Plant,,Normal,19-06-2023,8000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,8000,0
+72,Short Term - Crop Loans,Normal KCC,72,Sugar Cane Plant,,Normal,19-06-2023,90000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,90000,0
+87,Short Term - Crop Loans,Normal KCC,75,Sugar Cane Plant,,Normal,19-06-2023,140000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,140000,0
+88,Short Term - Crop Loans,Normal KCC,76,Sugar Cane Plant,,Normal,19-06-2023,130000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,130000,0
+92,Short Term - Crop Loans,Normal KCC,77,Sugar Cane Plant,,Normal,19-06-2023,112000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,112000,0
+94,Short Term - Crop Loans,Normal KCC,78,Sugar Cane Plant,,Normal,19-06-2023,123000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,123000,0
+96,Short Term - Crop Loans,Normal KCC,79,Sugar Cane Plant,,Normal,19-06-2023,124000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,124000,0
+97,Short Term - Crop Loans,Normal KCC,80,Sugar Cane Plant,,Normal,19-06-2023,125000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,125000,0
+98,Short Term - Crop Loans,Normal KCC,81,Sugar Cane Plant,,Normal,19-06-2023,100000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,100000,0
+101,Short Term - Crop Loans,Normal KCC,82,Sugar Cane Plant,,Normal,19-06-2023,100000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,100000,0
+102,Short Term - Crop Loans,Normal KCC,83,Sugar Cane Plant,,Normal,19-06-2023,120000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,120000,0
+103,Short Term - Crop Loans,Normal KCC,84,Sugar Cane Plant,,Normal,19-06-2023,39000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,39000,0
+73,Short Term - Crop Loans,Normal KCC,85,Sugar Cane Plant,,Normal,19-06-2023,80000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,80000,0
+104,Short Term - Crop Loans,Normal KCC,86,Sugar Cane Plant,,Normal,19-06-2023,12000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,12000,0
+106,Short Term - Crop Loans,Normal KCC,87,Sugar Cane Plant,,Normal,19-06-2023,55000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,55000,0
+107,Short Term - Crop Loans,Normal KCC,88,Sugar Cane Plant,,Normal,19-06-2023,55000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,55000,0
+108,Short Term - Crop Loans,Normal KCC,89,Sugar Cane Plant,,Normal,19-06-2023,95000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,95000,0
+109,Short Term - Crop Loans,Normal KCC,90,Sugar Cane Plant,,Normal,19-06-2023,95000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,95000,0
+110,Short Term - Crop Loans,Normal KCC,91,Sugar Cane Plant,,Normal,19-06-2023,26000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,26000,0
+112,Short Term - Crop Loans,Normal KCC,93,Sugar Cane Plant,,Normal,19-06-2023,55000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,55000,0
+113,Short Term - Crop Loans,Normal KCC,94,Sugar Cane Plant,,Normal,19-06-2023,160000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,160000,0
+115,Short Term - Crop Loans,Normal KCC,96,Sugar Cane Plant,,Normal,19-06-2023,125000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,125000,0
+118,Short Term - Crop Loans,Normal KCC,99,Sugar Cane Plant,,Normal,19-06-2023,60000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,60000,0
+121,Short Term - Crop Loans,Normal KCC,102,Sugar Cane Plant,,Normal,19-06-2023,26000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,26000,0
+122,Short Term - Crop Loans,Normal KCC,103,Sugar Cane Plant,,Normal,19-06-2023,26000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,26000,0
+90,Short Term - Crop Loans,Normal KCC,104,Sugar Cane Plant,,Normal,19-06-2023,40000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,40000,0
+58,Short Term - Crop Loans,Normal KCC,105,Sugar Cane Plant,,Normal,19-06-2023,1700,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,1700,0
+59,Short Term - Crop Loans,Normal KCC,106,Sugar Cane Plant,,Normal,19-06-2023,1700,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,1700,0
+142,Short Term - Crop Loans,Normal KCC,108,Sugar Cane Plant,,Normal,19-06-2023,85000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,85000,0
+176,Short Term - Crop Loans,Normal KCC,109,Sugar Cane Plant,,Normal,19-06-2023,130000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,130000,0
+139,Short Term - Crop Loans,Normal KCC,110,Sugar Cane Plant,,Normal,19-06-2023,30000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,30000,0
+143,Short Term - Crop Loans,Normal KCC,112,Sugar Cane Plant,,Normal,19-06-2023,150000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,150000,0
+159,Short Term - Crop Loans,Normal KCC,113,Sugar Cane Plant,,Normal,19-06-2023,34000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,34000,0
+160,Short Term - Crop Loans,Normal KCC,114,Sugar Cane Plant,,Normal,19-06-2023,34000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,34000,0
+153,Short Term - Crop Loans,Normal KCC,115,Sugar Cane Plant,,Normal,19-06-2023,45000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,45000,0
+105,Short Term - Crop Loans,Normal KCC,116,Sugar Cane Plant,,Normal,19-06-2023,65000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,65000,0
+161,Short Term - Crop Loans,Normal KCC,117,Sugar Cane Plant,,Normal,19-06-2023,140000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,140000,0
+154,Short Term - Crop Loans,Normal KCC,118,Sugar Cane Plant,,Normal,19-06-2023,150000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,150000,0
+162,Short Term - Crop Loans,Normal KCC,119,Sugar Cane Plant,,Normal,19-06-2023,35000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,35000,0
+163,Short Term - Crop Loans,Normal KCC,120,Sugar Cane Plant,,Normal,19-06-2023,85000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,85000,0
+150,Short Term - Crop Loans,Normal KCC,121,Sugar Cane Plant,,Normal,19-06-2023,137000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,137000,0
+169,Short Term - Crop Loans,Normal KCC,122,Sugar Cane Plant,,Normal,19-06-2023,105000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,105000,0
+164,Short Term - Crop Loans,Normal KCC,124,Sugar Cane Plant,,Normal,19-06-2023,48000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,48000,0
+165,Short Term - Crop Loans,Normal KCC,128,Sugar Cane Plant,,Normal,19-06-2023,9600,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,9600,0
+168,Short Term - Crop Loans,Normal KCC,130,Sugar Cane Plant,,Normal,19-06-2023,70000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,70000,0
+156,Short Term - Crop Loans,Normal KCC,131,Sugar Cane Plant,,Normal,19-06-2023,40000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,40000,0
+174,Short Term - Crop Loans,Normal KCC,132,Sugar Cane Plant,,Normal,19-06-2023,49000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,49000,0
+175,Short Term - Crop Loans,Normal KCC,133,Sugar Cane Plant,,Normal,19-06-2023,60000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,60000,0
+84,Short Term - Crop Loans,Normal KCC,136,Sugar Cane Plant,,Normal,19-06-2023,95000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,95000,0
+194,Short Term - Crop Loans,Normal KCC,137,Sugar Cane Plant,,Normal,19-06-2023,15000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,15000,0
+195,Short Term - Crop Loans,Normal KCC,138,Sugar Cane Plant,,Normal,19-06-2023,15000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,15000,0
+196,Short Term - Crop Loans,Normal KCC,139,Sugar Cane Plant,,Normal,19-06-2023,35000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,35000,0
+134,Short Term - Crop Loans,Normal KCC,141,Sugar Cane Plant,,Normal,19-06-2023,50000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,50000,0
+135,Short Term - Crop Loans,Normal KCC,142,Sugar Cane Plant,,Normal,19-06-2023,50000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,50000,0
+136,Short Term - Crop Loans,Normal KCC,143,Sugar Cane Plant,,Normal,19-06-2023,50000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,50000,0
+198,Short Term - Crop Loans,Normal KCC,144,Sugar Cane Plant,,Normal,19-06-2023,4000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,4000,0
+199,Short Term - Crop Loans,Normal KCC,145,Sugar Cane Plant,,Normal,19-06-2023,8700,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,8700,0
+200,Short Term - Crop Loans,Normal KCC,146,Sugar Cane Plant,,Normal,19-06-2023,100000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,100000,0
+201,Short Term - Crop Loans,Normal KCC,147,Sugar Cane Plant,,Normal,19-06-2023,80000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,80000,0
+202,Short Term - Crop Loans,Normal KCC,148,Sugar Cane Plant,,Normal,19-06-2023,80000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,80000,0
+203,Short Term - Crop Loans,Normal KCC,149,Sugar Cane Plant,,Normal,19-06-2023,140000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,140000,0
+204,Short Term - Crop Loans,Normal KCC,150,Sugar Cane Plant,,Normal,19-06-2023,75000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,75000,0
+207,Short Term - Crop Loans,Normal KCC,153,Sugar Cane Plant,,Normal,19-06-2023,65000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,65000,0
+184,Short Term - Crop Loans,Normal KCC,154,Sugar Cane Plant,,Normal,19-06-2023,20000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,20000,0
+185,Short Term - Crop Loans,Normal KCC,155,Sugar Cane Plant,,Normal,19-06-2023,21000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,21000,0
+186,Short Term - Crop Loans,Normal KCC,156,Sugar Cane Plant,,Normal,19-06-2023,20000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,20000,0
+187,Short Term - Crop Loans,Normal KCC,157,Sugar Cane Plant,,Normal,19-06-2023,95000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,95000,0
+188,Short Term - Crop Loans,Normal KCC,158,Sugar Cane Plant,,Normal,19-06-2023,95000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,95000,0
+180,Short Term - Crop Loans,Normal KCC,160,Sugar Cane Plant,,Normal,19-06-2023,80000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,80000,0
+208,Short Term - Crop Loans,Normal KCC,162,Sugar Cane Plant,,Normal,19-06-2023,80000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,80000,0
+209,Short Term - Crop Loans,Normal KCC,163,Sugar Cane Plant,,Normal,19-06-2023,42000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,42000,0
+210,Short Term - Crop Loans,Normal KCC,164,Sugar Cane Plant,,Normal,19-06-2023,32000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,32000,0
+211,Short Term - Crop Loans,Normal KCC,165,Sugar Cane Plant,,Normal,19-06-2023,32000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,32000,0
+182,Short Term - Crop Loans,Normal KCC,166,Sugar Cane Plant,,Normal,19-06-2023,20000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,20000,0
+183,Short Term - Crop Loans,Normal KCC,167,Sugar Cane Plant,,Normal,19-06-2023,21000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,21000,0
+213,Short Term - Crop Loans,Normal KCC,168,Sugar Cane Plant,,Normal,19-06-2023,15000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,15000,0
+214,Short Term - Crop Loans,Normal KCC,169,Sugar Cane Plant,,Normal,19-06-2023,15000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,15000,0
+215,Short Term - Crop Loans,Normal KCC,170,Sugar Cane Plant,,Normal,19-06-2023,20000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,20000,0
+217,Short Term - Crop Loans,Normal KCC,172,Sugar Cane Plant,,Normal,19-06-2023,100000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,100000,0
+218,Short Term - Crop Loans,Normal KCC,173,Sugar Cane Plant,,Normal,19-06-2023,100000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,100000,0
+190,Short Term - Crop Loans,Normal KCC,174,Sugar Cane Plant,,Normal,19-06-2023,140000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,140000,0
+191,Short Term - Crop Loans,Normal KCC,175,Sugar Cane Plant,,Normal,19-06-2023,90000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,90000,0
+219,Short Term - Crop Loans,Normal KCC,176,Sugar Cane Plant,,Normal,19-06-2023,100000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,100000,0
+220,Short Term - Crop Loans,Normal KCC,177,Sugar Cane Plant,,Normal,19-06-2023,36000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,36000,0
+222,Short Term - Crop Loans,Normal KCC,178,Sugar Cane Plant,,Normal,19-06-2023,36000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,36000,0
+224,Short Term - Crop Loans,Normal KCC,179,Sugar Cane Plant,,Normal,19-06-2023,125000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,125000,0
+225,Short Term - Crop Loans,Normal KCC,180,Sugar Cane Plant,,Normal,19-06-2023,110000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,110000,0
+158,Short Term - Crop Loans,Normal KCC,182,Sugar Cane Plant,,Normal,19-06-2023,24000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,24000,0
+234,Short Term - Crop Loans,Normal KCC,184,Sugar Cane Plant,,Normal,19-06-2023,75000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,75000,0
+212,Short Term - Crop Loans,Normal KCC,185,Sugar Cane Plant,,Normal,19-06-2023,100000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,100000,0
+236,Short Term - Crop Loans,Normal KCC,186,Sugar Cane Plant,,Normal,19-06-2023,100000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,100000,0
+237,Short Term - Crop Loans,Normal KCC,187,Sugar Cane Plant,,Normal,19-06-2023,105000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,105000,0
+221,Short Term - Crop Loans,Normal KCC,188,Sugar Cane Plant,,Normal,19-06-2023,63500,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,63500,0
+223,Short Term - Crop Loans,Normal KCC,189,Sugar Cane Plant,,Normal,19-06-2023,41000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,41000,0
+238,Short Term - Crop Loans,Normal KCC,190,Sugar Cane Plant,,Normal,19-06-2023,41000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,41000,0
+425,Short Term - Crop Loans,Normal KCC,192,Sugar Cane Plant,,Normal,19-06-2023,120000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,120000,0
+426,Short Term - Crop Loans,Normal KCC,193,Sugar Cane Plant,,Normal,19-06-2023,120000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,120000,0
+429,Short Term - Crop Loans,Normal KCC,194,Sugar Cane Plant,,Normal,19-06-2023,80000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,80000,0
+437,Short Term - Crop Loans,Normal KCC,196,Sugar Cane Plant,,Normal,19-06-2023,40000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,40000,0
+438,Short Term - Crop Loans,Normal KCC,197,Sugar Cane Plant,,Normal,19-06-2023,35000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,35000,0
+439,Short Term - Crop Loans,Normal KCC,198,Sugar Cane Plant,,Normal,19-06-2023,140000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,140000,0
+441,Short Term - Crop Loans,Normal KCC,199,Sugar Cane Plant,,Normal,19-06-2023,150000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,150000,0
+331,Short Term - Crop Loans,Normal KCC,201,Sugar Cane Plant,,Normal,19-06-2023,125000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,125000,0
+444,Short Term - Crop Loans,Normal KCC,202,Sugar Cane Plant,,Normal,19-06-2023,12000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,12000,0
+445,Short Term - Crop Loans,Normal KCC,203,Sugar Cane Plant,,Normal,19-06-2023,100000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,100000,0
+446,Short Term - Crop Loans,Normal KCC,204,Sugar Cane Plant,,Normal,19-06-2023,110000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,110000,0
+447,Short Term - Crop Loans,Normal KCC,205,Sugar Cane Plant,,Normal,19-06-2023,24000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,24000,0
+448,Short Term - Crop Loans,Normal KCC,206,Sugar Cane Plant,,Normal,19-06-2023,50000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,50000,0
+449,Short Term - Crop Loans,Normal KCC,207,Sugar Cane Plant,,Normal,19-06-2023,46000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,46000,0
+450,Short Term - Crop Loans,Normal KCC,208,Sugar Cane Plant,,Normal,19-06-2023,24000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,24000,0
+350,Short Term - Crop Loans,Normal KCC,209,Sugar Cane Plant,,Normal,19-06-2023,18000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,18000,0
+382,Short Term - Crop Loans,Normal KCC,210,Sugar Cane Plant,,Normal,19-06-2023,85000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,85000,0
+451,Short Term - Crop Loans,Normal KCC,211,Sugar Cane Plant,,Normal,19-06-2023,35000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,35000,0
+452,Short Term - Crop Loans,Normal KCC,212,Sugar Cane Plant,,Normal,19-06-2023,35000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,35000,0
+454,Short Term - Crop Loans,Normal KCC,213,Sugar Cane Plant,,Normal,19-06-2023,35000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,35000,0
+455,Short Term - Crop Loans,Normal KCC,214,Sugar Cane Plant,,Normal,19-06-2023,110000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,110000,0
+456,Short Term - Crop Loans,Normal KCC,215,Sugar Cane Plant,,Normal,19-06-2023,70000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,70000,0
+457,Short Term - Crop Loans,Normal KCC,216,Sugar Cane Plant,,Normal,19-06-2023,70000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,70000,0
+459,Short Term - Crop Loans,Normal KCC,218,Sugar Cane Plant,,Normal,19-06-2023,50000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,50000,0
+461,Short Term - Crop Loans,Normal KCC,219,Sugar Cane Plant,,Normal,19-06-2023,13000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,13000,0
+462,Short Term - Crop Loans,Normal KCC,220,Sugar Cane Plant,,Normal,19-06-2023,13000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,13000,0
+463,Short Term - Crop Loans,Normal KCC,222,Sugar Cane Plant,,Normal,19-06-2023,50000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,50000,0
+340,Short Term - Crop Loans,Normal KCC,224,Sugar Cane Plant,,Normal,19-06-2023,120000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,120000,0
+465,Short Term - Crop Loans,Normal KCC,225,Sugar Cane Plant,,Normal,19-06-2023,3500,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,3500,0
+468,Short Term - Crop Loans,Normal KCC,226,Sugar Cane Plant,,Normal,19-06-2023,80000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,80000,0
+466,Short Term - Crop Loans,Normal KCC,227,Sugar Cane Plant,,Normal,19-06-2023,150000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,150000,0
+177,Short Term - Crop Loans,Normal KCC,229,Sugar Cane Plant,,Normal,19-06-2023,110000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,110000,0
+167,Short Term - Crop Loans,Normal KCC,232,Sugar Cane Plant,,Normal,19-06-2023,48000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,48000,0
+39,Short Term - Crop Loans,Normal KCC,233,Sugar Cane Plant,,Normal,19-06-2023,90000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,90000,0
+228,Short Term - Crop Loans,Normal KCC,234,Sugar Cane Plant,,Normal,19-06-2023,113000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,113000,0
+173,Short Term - Crop Loans,Normal KCC,235,Sugar Cane Plant,,Normal,19-06-2023,160000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,160000,0
+428,Short Term - Crop Loans,Normal KCC,237,Sugar Cane Plant,,Normal,19-06-2023,4500,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,4500,0
+432,Short Term - Crop Loans,Normal KCC,238,Sugar Cane Plant,,Normal,19-06-2023,60000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,60000,0
+245,Short Term - Crop Loans,Normal KCC,239,Sugar Cane Plant,,Normal,19-06-2023,14000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,14000,0
+434,Short Term - Crop Loans,Normal KCC,240,Sugar Cane Plant,,Normal,19-06-2023,14000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,14000,0
+435,Short Term - Crop Loans,Normal KCC,241,Sugar Cane Plant,,Normal,19-06-2023,4300,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,4300,0
+436,Short Term - Crop Loans,Normal KCC,242,Sugar Cane Plant,,Normal,19-06-2023,45000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,45000,0
+440,Short Term - Crop Loans,Normal KCC,243,Sugar Cane Plant,,Normal,19-06-2023,140000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,140000,0
+442,Short Term - Crop Loans,Normal KCC,244,Sugar Cane Plant,,Normal,19-06-2023,125000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,125000,0
+443,Short Term - Crop Loans,Normal KCC,245,Sugar Cane Plant,,Normal,19-06-2023,50000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,50000,0
+453,Short Term - Crop Loans,Normal KCC,246,Sugar Cane Plant,,Normal,19-06-2023,35000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,35000,0
+460,Short Term - Crop Loans,Normal KCC,247,Sugar Cane Plant,,Normal,19-06-2023,50000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,50000,0
+467,Short Term - Crop Loans,Normal KCC,248,Sugar Cane Plant,,Normal,19-06-2023,35000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,35000,0
+470,Short Term - Crop Loans,Normal KCC,249,Sugar Cane Plant,,Normal,19-06-2023,10000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,10000,0
+244,Short Term - Crop Loans,Normal KCC,250,Sugar Cane Plant,,Normal,19-06-2023,60000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,60000,0
+325,Short Term - Crop Loans,Normal KCC,251,Sugar Cane Plant,,Normal,19-06-2023,80000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,80000,0
+418,Short Term - Crop Loans,Normal KCC,252,Sugar Cane Plant,,Normal,19-06-2023,45000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,45000,0
+488,Short Term - Crop Loans,Normal KCC,253,Sugar Cane Plant,,Normal,19-06-2023,75000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,75000,0
+509,Short Term - Crop Loans,Normal KCC,254,Sugar Cane Plant,,Normal,19-06-2023,4300,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,4300,0
+585,Short Term - Crop Loans,Normal KCC,255,Sugar Cane Plant,,Normal,19-06-2023,21000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,21000,0
+667,Short Term - Crop Loans,Normal KCC,256,Sugar Cane Plant,,Normal,19-06-2023,80000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,80000,0
+686,Short Term - Crop Loans,Normal KCC,257,Sugar Cane Plant,,Normal,19-06-2023,60000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,60000,0
+687,Short Term - Crop Loans,Normal KCC,258,Sugar Cane Plant,,Normal,19-06-2023,60000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,60000,0
+688,Short Term - Crop Loans,Normal KCC,259,Sugar Cane Plant,,Normal,19-06-2023,50000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,50000,0
+689,Short Term - Crop Loans,Normal KCC,260,Sugar Cane Plant,,Normal,19-06-2023,50000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,50000,0
+690,Short Term - Crop Loans,Normal KCC,261,Sugar Cane Plant,,Normal,19-06-2023,70000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,70000,0
+691,Short Term - Crop Loans,Normal KCC,262,Sugar Cane Plant,,Normal,19-06-2023,21000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,21000,0
+692,Short Term - Crop Loans,Normal KCC,263,Sugar Cane Plant,,Normal,19-06-2023,21000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,21000,0
+694,Short Term - Crop Loans,Normal KCC,264,Sugar Cane Plant,,Normal,19-06-2023,38000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,38000,0
+696,Short Term - Crop Loans,Normal KCC,265,Sugar Cane Plant,,Normal,19-06-2023,4300,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,4300,0
+698,Short Term - Crop Loans,Normal KCC,266,Sugar Cane Plant,,Normal,19-06-2023,35000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,35000,0
+700,Short Term - Crop Loans,Normal KCC,267,Sugar Cane Plant,,Normal,19-06-2023,5200,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,5200,0
+701,Short Term - Crop Loans,Normal KCC,268,Sugar Cane Plant,,Normal,19-06-2023,16000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,16000,0
+702,Short Term - Crop Loans,Normal KCC,269,Sugar Cane Plant,,Normal,19-06-2023,16000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,16000,0
+703,Short Term - Crop Loans,Normal KCC,270,Sugar Cane Plant,,Normal,19-06-2023,80000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,80000,0
+706,Short Term - Crop Loans,Normal KCC,271,Sugar Cane Plant,,Normal,19-06-2023,30000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,30000,0
+707,Short Term - Crop Loans,Normal KCC,272,Sugar Cane Plant,,Normal,19-06-2023,30000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,30000,0
+708,Short Term - Crop Loans,Normal KCC,273,Sugar Cane Plant,,Normal,19-06-2023,30000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,30000,0
+709,Short Term - Crop Loans,Normal KCC,274,Sugar Cane Plant,,Normal,19-06-2023,15000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,15000,0
+710,Short Term - Crop Loans,Normal KCC,275,Sugar Cane Plant,,Normal,19-06-2023,15000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,15000,0
+711,Short Term - Crop Loans,Normal KCC,276,Sugar Cane Plant,,Normal,19-06-2023,80000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,80000,0
+714,Short Term - Crop Loans,Normal KCC,277,Sugar Cane Plant,,Normal,19-06-2023,70000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,70000,0
+716,Short Term - Crop Loans,Normal KCC,278,Sugar Cane Plant,,Normal,19-06-2023,80000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,80000,0
+719,Short Term - Crop Loans,Normal KCC,279,Sugar Cane Plant,,Normal,19-06-2023,16000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,16000,0
+722,Short Term - Crop Loans,Normal KCC,280,Sugar Cane Plant,,Normal,19-06-2023,47000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,47000,0
+723,Short Term - Crop Loans,Normal KCC,281,Sugar Cane Plant,,Normal,19-06-2023,75000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,75000,0
+725,Short Term - Crop Loans,Normal KCC,282,Sugar Cane Plant,,Normal,19-06-2023,36000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,36000,0
+726,Short Term - Crop Loans,Normal KCC,283,Sugar Cane Plant,,Normal,19-06-2023,43000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,43000,0
+727,Short Term - Crop Loans,Normal KCC,284,Sugar Cane Plant,,Normal,19-06-2023,70000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,70000,0
+729,Short Term - Crop Loans,Normal KCC,285,Sugar Cane Plant,,Normal,19-06-2023,24000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,24000,0
+730,Short Term - Crop Loans,Normal KCC,286,Sugar Cane Plant,,Normal,19-06-2023,55000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,55000,0
+731,Short Term - Crop Loans,Normal KCC,287,Sugar Cane Plant,,Normal,19-06-2023,12000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,12000,0
+732,Short Term - Crop Loans,Normal KCC,288,Sugar Cane Plant,,Normal,19-06-2023,80000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,80000,0
+739,Short Term - Crop Loans,Normal KCC,289,Sugar Cane Plant,,Normal,19-06-2023,26000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,26000,0
+742,Short Term - Crop Loans,Normal KCC,290,Sugar Cane Plant,,Normal,19-06-2023,95000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,95000,0
+471,Short Term - Crop Loans,Normal KCC,292,Sugar Cane Plant,,Normal,19-06-2023,65000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,65000,0
+248,Short Term - Crop Loans,Normal KCC,293,Sugar Cane Plant,,Normal,19-06-2023,45000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,45000,0
+261,Short Term - Crop Loans,Normal KCC,294,Sugar Cane Plant,,Normal,19-06-2023,35000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,35000,0
+268,Short Term - Crop Loans,Normal KCC,295,Sugar Cane Plant,,Normal,19-06-2023,19000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,19000,0
+280,Short Term - Crop Loans,Normal KCC,296,Sugar Cane Plant,,Normal,19-06-2023,23000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,23000,0
+312,Short Term - Crop Loans,Normal KCC,297,Sugar Cane Plant,,Normal,19-06-2023,29000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,29000,0
+513,Short Term - Crop Loans,Normal KCC,298,Sugar Cane Plant,,Normal,19-06-2023,29000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,29000,0
+522,Short Term - Crop Loans,Normal KCC,299,Sugar Cane Plant,,Normal,19-06-2023,65000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,65000,0
+576,Short Term - Crop Loans,Normal KCC,300,Sugar Cane Plant,,Normal,19-06-2023,80000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,80000,0
+627,Short Term - Crop Loans,Normal KCC,301,Sugar Cane Plant,,Normal,19-06-2023,4300,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,4300,0
+693,Short Term - Crop Loans,Normal KCC,302,Sugar Cane Plant,,Normal,19-06-2023,23000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,23000,0
+697,Short Term - Crop Loans,Normal KCC,303,Sugar Cane Plant,,Normal,19-06-2023,50000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,50000,0
+699,Short Term - Crop Loans,Normal KCC,304,Sugar Cane Plant,,Normal,19-06-2023,5200,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,5200,0
+705,Short Term - Crop Loans,Normal KCC,305,Sugar Cane Plant,,Normal,19-06-2023,29000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,29000,0
+712,Short Term - Crop Loans,Normal KCC,306,Sugar Cane Plant,,Normal,19-06-2023,50000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,50000,0
+715,Short Term - Crop Loans,Normal KCC,307,Sugar Cane Plant,,Normal,19-06-2023,70000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,70000,0
+717,Short Term - Crop Loans,Normal KCC,308,Sugar Cane Plant,,Normal,19-06-2023,4300,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,4300,0
+721,Short Term - Crop Loans,Normal KCC,309,Sugar Cane Plant,,Normal,19-06-2023,13000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,13000,0
+734,Short Term - Crop Loans,Normal KCC,310,Sugar Cane Plant,,Normal,19-06-2023,80000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,80000,0
+735,Short Term - Crop Loans,Normal KCC,311,Sugar Cane Plant,,Normal,19-06-2023,78000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,78000,0
+747,Short Term - Crop Loans,Normal KCC,312,Sugar Cane Plant,,Normal,19-06-2023,4300,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,4300,0
+748,Short Term - Crop Loans,Normal KCC,313,Sugar Cane Plant,,Normal,19-06-2023,4300,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,4300,0
+753,Short Term - Crop Loans,Normal KCC,314,Sugar Cane Plant,,Normal,19-06-2023,11000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,11000,0
+754,Short Term - Crop Loans,Normal KCC,315,Sugar Cane Plant,,Normal,19-06-2023,70000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,70000,0
+757,Short Term - Crop Loans,Normal KCC,316,Sugar Cane Plant,,Normal,19-06-2023,70000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,70000,0
+469,Short Term - Crop Loans,Normal KCC,317,Sugar Cane Plant,,Normal,19-06-2023,100000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,100000,0
+15,Short Term - Crop Loans,Normal KCC,1,Sugar Cane Plant,,Normal,19-06-2023,300000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,300000,0
+21,Short Term - Crop Loans,Normal KCC,2,Sugar Cane Plant,,Normal,19-06-2023,230000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,230000,0
+16,Short Term - Crop Loans,Normal KCC,4,Sugar Cane Plant,,Normal,19-06-2023,300000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,300000,0
+20,Short Term - Crop Loans,Normal KCC,5,Sugar Cane Plant,,Normal,19-06-2023,225000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,225000,0
+3,Short Term - Crop Loans,Normal KCC,6,Sugar Cane Plant,,Normal,19-06-2023,290000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,290000,0
+68,Short Term - Crop Loans,Normal KCC,8,Sugar Cane Plant,,Normal,19-06-2023,180000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,180000,0
+19,Short Term - Crop Loans,Normal KCC,9,Sugar Cane Plant,,Normal,19-06-2023,300000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,300000,0
+22,Short Term - Crop Loans,Normal KCC,10,Sugar Cane Plant,,Normal,19-06-2023,190000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,190000,0
+24,Short Term - Crop Loans,Normal KCC,11,Sugar Cane Plant,,Normal,19-06-2023,300000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,300000,0
+1,Short Term - Crop Loans,Normal KCC,13,Sugar Cane Plant,,Normal,19-06-2023,238000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,238000,0
+123,Short Term - Crop Loans,Normal KCC,14,Sugar Cane Plant,,Normal,19-06-2023,200000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,200000,0
+125,Short Term - Crop Loans,Normal KCC,15,Sugar Cane Plant,,Normal,19-06-2023,242000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,242000,0
+127,Short Term - Crop Loans,Normal KCC,17,Sugar Cane Plant,,Normal,19-06-2023,300000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,300000,0
+129,Short Term - Crop Loans,Normal KCC,19,Sugar Cane Plant,,Normal,19-06-2023,200000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,200000,0
+131,Short Term - Crop Loans,Normal KCC,21,Sugar Cane Plant,,Normal,19-06-2023,99000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,99000,0
+133,Short Term - Crop Loans,Normal KCC,23,Sugar Cane Plant,,Normal,19-06-2023,300000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,300000,0
+114,Short Term - Crop Loans,Normal KCC,24,Sugar Cane Plant,,Normal,19-06-2023,300000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,300000,0
+100,Short Term - Crop Loans,Normal KCC,25,Sugar Cane Plant,,Normal,19-06-2023,240000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,240000,0
+141,Short Term - Crop Loans,Normal KCC,26,Sugar Cane Plant,,Normal,19-06-2023,300000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,300000,0
+124,Short Term - Crop Loans,Normal KCC,29,Sugar Cane Plant,,Normal,19-06-2023,300000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,300000,0
+86,Short Term - Crop Loans,Normal KCC,32,Sugar Cane Plant,,Normal,19-06-2023,210000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,210000,0
+189,Short Term - Crop Loans,Normal KCC,33,Sugar Cane Plant,,Normal,19-06-2023,300000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,300000,0
+229,Short Term - Crop Loans,Normal KCC,35,Sugar Cane Plant,,Normal,19-06-2023,210000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,210000,0
+193,Short Term - Crop Loans,Normal KCC,37,Sugar Cane Plant,,Normal,19-06-2023,170000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,170000,0
+233,Short Term - Crop Loans,Normal KCC,39,Sugar Cane Plant,,Normal,19-06-2023,200000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,200000,0
+239,Short Term - Crop Loans,Normal KCC,40,Sugar Cane Plant,,Normal,19-06-2023,140000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,140000,0
+240,Short Term - Crop Loans,Normal KCC,41,Sugar Cane Plant,,Normal,19-06-2023,160000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,160000,0
+472,Short Term - Crop Loans,Normal KCC,44,Sugar Cane Plant,,Normal,19-06-2023,130000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,130000,0
+473,Short Term - Crop Loans,Normal KCC,45,Sugar Cane Plant,,Normal,19-06-2023,150000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,150000,0
+474,Short Term - Crop Loans,Normal KCC,46,Sugar Cane Plant,,Normal,19-06-2023,180000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,180000,0
+93,Short Term - Crop Loans,Normal KCC,48,Sugar Cane Plant,,Normal,19-06-2023,200000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,200000,0
+116,Short Term - Crop Loans,Normal KCC,49,Sugar Cane Plant,,Normal,19-06-2023,120000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,120000,0
+171,Short Term - Crop Loans,Normal KCC,50,Sugar Cane Plant,,Normal,19-06-2023,150000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,150000,0
+172,Short Term - Crop Loans,Normal KCC,51,Sugar Cane Plant,,Normal,19-06-2023,150000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,150000,0
+243,Short Term - Crop Loans,Normal KCC,52,Sugar Cane Plant,,Normal,19-06-2023,180000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,180000,0
+713,Short Term - Crop Loans,Normal KCC,53,Sugar Cane Plant,,Normal,19-06-2023,70000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,70000,0
+733,Short Term - Crop Loans,Normal KCC,54,Sugar Cane Plant,,Normal,19-06-2023,140000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,140000,0
+232,Short Term - Crop Loans,Normal KCC,55,Sugar Cane Plant,,Normal,19-06-2023,200000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,200000,0
+755,Others,Normal KCC,56,Sugar Cane Plant,,Normal,19-06-2023,80000,12Months,18-06-2024,0%,12%,,by cash,,,,,,,,,80000,0
+41,Others,Normal BDP,28,BUSSINESS LOAN,,Normal,27-02-2024,150000,12Months,26-02-2025,18%,3%,21%,by cash,,27-02-2024,150000,,,,,,150000,27000
+4,Others,Normal BDP,30,BUSSINESS LOAN,,Normal,15-03-2024,250000,12Months,15-03-2025,18%,3%,21%,by cash,,15-03-2024,250000,,,,,,250000,45000
+1,Others,Normal BDP,31,BUSSINESS LOAN,,Normal,05-07-2023,60000,12Months,04-07-2024,18%,3%,21%,by cash,,05-07-2023,60000,,,,,,60000,10800
+123,Others,Normal BDP,32,BUSSINESS LOAN,,Normal,22-02-2024,340000,12Months,21-02-2025,18%,3%,21%,by cash,,22-02-2024,340000,,,,,,340000,61200
+167,Others,Normal BDP,33,BUSSINESS LOAN,,Normal,20-03-2024,100000,12Months,20-03-2025,18%,3%,21%,by cash,,20-03-2024,100000,,,,,,100000,18000
+134,Others,Normal BDP,34,BUSSINESS LOAN,,Normal,14-12-2023,150000,12Months,13-12-2024,18%,3%,21%,by cash,,14-12-2023,150000,,,,,,150000,27000
+236,Others,Normal BDP,37,BUSSINESS LOAN,,Normal,17-03-2023,150000,12Months,16-03-2024,18%,3%,21%,by cash,,17-03-2023,150000,,,,,,150000,27000
+137,Others,Normal BDP,38,BUSSINESS LOAN,,Normal,30-03-2024,50000,12Months,30-03-2025,18%,3%,21%,by cash,,30-03-2024,50000,,,,,,50000,9000
+157,Others,Normal BDP,42,BUSSINESS LOAN,,Normal,15-11-2021,10000,12Months,15-11-2022,18%,3%,21%,by cash,,15-11-2021,10000,,,,,,10000,1800
+218,Others,Normal BDP,44,BUSSINESS LOAN,,Normal,16-03-2024,250000,12Months,16-03-2025,18%,3%,21%,by cash,,16-03-2024,250000,,,,,,250000,45000
+186,Others,Normal BDP,46,BUSSINESS LOAN,,Normal,12-03-2024,30000,12Months,12-03-2025,18%,3%,21%,by cash,,12-03-2024,30000,,,,,,30000,5400
+84,Others,Normal BDP,47,BUSSINESS LOAN,,Normal,28-03-2024,240000,12Months,28-03-2025,18%,3%,21%,by cash,,28-03-2024,240000,,,,,,240000,43200
+244,Others,Normal BDP,50,BUSSINESS LOAN,,Normal,12-02-2024,200000,12Months,11-02-2025,18%,3%,21%,by cash,,12-02-2024,200000,,,,,,200000,36000
+286,Others,Normal BDP,51,BUSSINESS LOAN,,Normal,22-03-2024,150000,12Months,22-03-2025,18%,3%,21%,by cash,,22-03-2024,150000,,,,,,150000,27000
+189,Others,Normal BDP,52,BUSSINESS LOAN,,Normal,27-02-2024,130000,12Months,26-02-2025,18%,3%,21%,by cash,,27-02-2024,130000,,,,,,130000,23400
+40,Others,Normal BDP,53,BUSSINESS LOAN,,Normal,07-07-2023,300000,12Months,06-07-2024,18%,3%,21%,by cash,,07-07-2023,300000,,,,,,300000,54000
+207,Others,Normal BDP,55,BUSSINESS LOAN,,Normal,26-09-2023,100000,12Months,25-09-2024,18%,3%,21%,by cash,,26-09-2023,100000,,,,,,100000,18000
+100,Others,Normal BDP,57,BUSSINESS LOAN,,Normal,28-03-2024,350000,12Months,28-03-2025,18%,3%,21%,by cash,,28-03-2024,350000,,,,,,350000,63000
+203,Others,Normal BDP,58,BUSSINESS LOAN,,Normal,31-03-2023,80000,12Months,30-03-2024,18%,3%,21%,by cash,,31-03-2023,80000,,,,,,80000,14400
+280,Others,Normal BDP,59,BUSSINESS LOAN,,Normal,26-02-2024,150000,12Months,25-02-2025,18%,3%,21%,by cash,,26-02-2024,150000,,,,,,150000,27000
+245,Others,Normal BDP,61,BUSSINESS LOAN,,Normal,02-01-2024,40000,12Months,01-01-2025,18%,3%,21%,by cash,,02-01-2024,40000,,,,,,40000,7200
+272,Others,Normal BDP,62,BUSSINESS LOAN,,Normal,31-01-2024,20000,12Months,30-01-2025,18%,3%,21%,by cash,,31-01-2024,20000,,,,,,20000,3600
+191,Others,Normal BDP,64,BUSSINESS LOAN,,Normal,20-02-2024,200000,12Months,19-02-2025,18%,3%,21%,by cash,,20-02-2024,200000,,,,,,200000,36000
+350,Others,Normal BDP,65,BUSSINESS LOAN,,Normal,01-07-2023,105000,12Months,30-06-2024,18%,3%,21%,by cash,,01-07-2023,105000,,,,,,105000,18900
+83,Others,Normal BDP,66,BUSSINESS LOAN,,Normal,24-02-2023,43000,12Months,24-02-2024,18%,3%,21%,by cash,,24-02-2023,43000,,,,,,43000,7740
+127,Others,Normal BDP,69,BUSSINESS LOAN,,Normal,13-11-2023,200000,12Months,12-11-2024,18%,3%,21%,by cash,,13-11-2023,200000,,,,,,200000,36000
+450,Others,Normal BDP,70,BUSSINESS LOAN,,Normal,04-01-2024,250000,12Months,03-01-2025,18%,3%,21%,by cash,,04-01-2024,250000,,,,,,250000,45000
+476,Others,Normal BDP,71,BUSSINESS LOAN,,Normal,21-09-2023,150000,12Months,20-09-2024,18%,3%,21%,by cash,,21-09-2023,150000,,,,,,150000,27000
+344,Others,Normal BDP,72,BUSSINESS LOAN,,Normal,01-03-2024,300000,12Months,01-03-2025,18%,3%,21%,by cash,,01-03-2024,300000,,,,,,300000,54000
+219,Others,Normal BDP,73,BUSSINESS LOAN,,Normal,05-07-2023,100000,12Months,04-07-2024,18%,3%,21%,by cash,,05-07-2023,100000,,,,,,100000,18000
+219,Others,Normal BDP,73,BUSSINESS LOAN,,Normal,17-11-2023,200000,12Months,16-11-2024,18%,3%,21%,by cash,,17-11-2023,200000,,,,,,200000,36000
+190,Others,Normal BDP,74,BUSSINESS LOAN,,Normal,15-06-2023,100000,12Months,14-06-2024,18%,3%,21%,by cash,,15-06-2023,100000,,,,,,100000,18000
+190,Others,Normal BDP,74,BUSSINESS LOAN,,Normal,29-11-2023,65000,12Months,28-11-2024,18%,3%,21%,by cash,,29-11-2023,65000,,,,,,65000,11700
+11,Others,Normal BDP,75,BUSSINESS LOAN,,Normal,28-04-2023,100000,12Months,27-04-2024,18%,3%,21%,by cash,,28-04-2023,100000,,,,,,100000,18000
+468,Others,Normal BDP,77,BUSSINESS LOAN,,Normal,09-01-2024,200000,12Months,08-01-2025,18%,3%,21%,by cash,,09-01-2024,200000,,,,,,200000,36000
+184,Others,Normal BDP,78,BUSSINESS LOAN,,Normal,12-03-2024,22000,12Months,12-03-2025,18%,3%,21%,by cash,,12-03-2024,22000,,,,,,22000,3960
+209,Others,Normal BDP,79,BUSSINESS LOAN,,Normal,22-03-2024,300000,12Months,22-03-2025,18%,3%,21%,by cash,,22-03-2024,300000,,,,,,300000,54000
+225,Others,Normal BDP,82,BUSSINESS LOAN,,Normal,17-05-2023,50000,12Months,16-05-2024,18%,3%,21%,by cash,,17-05-2023,50000,,,,,,50000,9000
+228,Others,Normal BDP,84,BUSSINESS LOAN,,Normal,18-12-2023,100000,12Months,17-12-2024,18%,3%,21%,by cash,,18-12-2023,100000,,,,,,100000,18000
+213,Others,Normal BDP,90,BUSSINESS LOAN,,Normal,29-05-2023,300000,12Months,28-05-2024,18%,3%,21%,by cash,,29-05-2023,300000,,,,,,300000,54000
+175,Others,Normal BDP,92,BUSSINESS LOAN,,Normal,10-04-2023,60000,12Months,09-04-2024,18%,3%,21%,by cash,,10-04-2023,60000,,,,,,60000,10800
+473,Others,Normal BDP,93,BUSSINESS LOAN,,Normal,07-02-2024,220000,12Months,06-02-2025,18%,3%,21%,by cash,,07-02-2024,220000,,,,,,220000,39600
+592,Others,Normal BDP,94,BUSSINESS LOAN,,Normal,12-05-2023,50000,12Months,11-05-2024,18%,3%,21%,by cash,,12-05-2023,50000,,,,,,50000,9000
+594,Others,Normal BDP,95,BUSSINESS LOAN,,Normal,29-01-2024,50000,12Months,28-01-2025,18%,3%,21%,by cash,,29-01-2024,50000,,,,,,50000,9000
+212,Others,Normal BDP,98,BUSSINESS LOAN,,Normal,01-02-2023,150000,12Months,01-02-2024,18%,3%,21%,by cash,,01-02-2023,150000,,,,,,150000,27000
+598,Others,Normal BDP,99,BUSSINESS LOAN,,Normal,20-01-2024,300000,12Months,19-01-2025,18%,3%,21%,by cash,,20-01-2024,300000,,,,,,300000,54000
+599,Others,Normal BDP,100,BUSSINESS LOAN,,Normal,26-03-2024,210000,12Months,26-03-2025,18%,3%,21%,by cash,,26-03-2024,210000,,,,,,210000,37800
+600,Others,Normal BDP,101,BUSSINESS LOAN,,Normal,24-05-2023,50000,12Months,23-05-2024,18%,3%,21%,by cash,,24-05-2023,50000,,,,,,50000,9000
+124,Others,Normal BDP,103,BUSSINESS LOAN,,Normal,07-07-2023,100000,12Months,06-07-2024,18%,3%,21%,by cash,,07-07-2023,100000,,,,,,100000,18000
+619,Others,Normal BDP,104,BUSSINESS LOAN,,Normal,01-07-2023,80000,12Months,30-06-2024,18%,3%,21%,by cash,,01-07-2023,80000,,,,,,80000,14400
+45,Others,Normal BDP,106,BUSSINESS LOAN,,Normal,04-12-2023,140000,12Months,03-12-2024,18%,3%,21%,by cash,,04-12-2023,140000,,,,,,140000,25200
+460,Others,Normal BDP,108,BUSSINESS LOAN,,Normal,25-10-2023,25000,12Months,24-10-2024,18%,3%,21%,by cash,,25-10-2023,25000,,,,,,25000,4500
+93,Others,Normal BDP,109,BUSSINESS LOAN,,Normal,01-06-2023,300000,12Months,31-05-2024,18%,3%,21%,by cash,,01-06-2023,300000,,,,,,300000,54000
+113,Others,Normal BDP,110,BUSSINESS LOAN,,Normal,01-06-2023,300000,12Months,31-05-2024,18%,3%,21%,by cash,,01-06-2023,300000,,,,,,300000,54000
+86,Others,Normal BDP,111,BUSSINESS LOAN,,Normal,30-03-2024,300000,12Months,30-03-2025,18%,3%,21%,by cash,,30-03-2024,300000,,,,,,300000,54000
+248,Others,Normal BDP,113,BUSSINESS LOAN,,Normal,21-04-2023,200000,12Months,20-04-2024,18%,3%,21%,by cash,,21-04-2023,200000,,,,,,200000,36000
+723,Others,Normal BDP,115,BUSSINESS LOAN,,Normal,14-12-2023,310000,12Months,13-12-2024,18%,3%,21%,by cash,,14-12-2023,310000,,,,,,310000,55800
+730,Others,Normal BDP,120,BUSSINESS LOAN,,Normal,19-12-2023,300000,12Months,18-12-2024,18%,3%,21%,by cash,,19-12-2023,300000,,,,,,300000,54000
+693,Others,Normal BDP,121,BUSSINESS LOAN,,Normal,26-03-2024,200000,12Months,26-03-2025,18%,3%,21%,by cash,,26-03-2024,200000,,,,,,200000,36000
+34,Others,Normal BDP,122,BUSSINESS LOAN,,Normal,14-02-2024,100000,12Months,13-02-2025,18%,3%,21%,by cash,,14-02-2024,100000,,,,,,100000,18000
+731,Others,Normal BDP,123,BUSSINESS LOAN,,Normal,07-03-2023,200000,12Months,06-03-2024,18%,3%,21%,by cash,,07-03-2023,200000,,,,,,200000,36000
+729,Others,Normal BDP,124,BUSSINESS LOAN,,Normal,12-04-2023,100000,12Months,11-04-2024,18%,3%,21%,by cash,,12-04-2023,100000,,,,,,100000,18000
+10,Others,Normal BDP,125,BUSSINESS LOAN,,Normal,26-04-2024,250000,12Months,26-04-2025,18%,3%,21%,by cash,,26-04-2024,250000,,,,,,250000,45000
+214,Others,Normal BDP,126,BUSSINESS LOAN,,Normal,29-04-2023,250000,12Months,28-04-2024,18%,3%,21%,by cash,,29-04-2023,250000,,,,,,250000,45000
+708,Others,Normal BDP,129,BUSSINESS LOAN,,Normal,05-12-2023,100000,12Months,04-12-2024,18%,3%,21%,by cash,,05-12-2023,100000,,,,,,100000,18000
+716,Others,Normal BDP,130,BUSSINESS LOAN,,Normal,01-06-2023,300000,12Months,31-05-2024,18%,3%,21%,by cash,,01-06-2023,300000,,,,,,300000,54000
+667,Others,Normal BDP,131,BUSSINESS LOAN,,Normal,01-06-2023,300000,12Months,31-05-2024,18%,3%,21%,by cash,,01-06-2023,300000,,,,,,300000,54000
+488,Others,Normal BDP,132,BUSSINESS LOAN,,Normal,16-06-2023,100000,12Months,15-06-2024,18%,3%,21%,by cash,,16-06-2023,100000,,,,,,100000,18000
+229,Others,Normal BDP,133,BUSSINESS LOAN,,Normal,05-07-2023,300000,12Months,04-07-2024,18%,3%,21%,by cash,,05-07-2023,300000,,,,,,300000,54000
+449,Others,Normal BDP,134,BUSSINESS LOAN,,Normal,10-07-2023,250000,12Months,09-07-2024,18%,3%,21%,by cash,,10-07-2023,250000,,,,,,250000,45000
+111,Others,Normal BDP,135,BUSSINESS LOAN,,Normal,18-07-2023,200000,12Months,17-07-2024,18%,3%,21%,by cash,,18-07-2023,200000,,,,,,200000,36000
+692,Others,Normal BDP,136,BUSSINESS LOAN,,Normal,23-02-2024,200000,12Months,22-02-2025,18%,3%,21%,by cash,,23-02-2024,200000,,,,,,200000,36000
+726,Others,Normal BDP,137,BUSSINESS LOAN,,Normal,21-09-2023,100000,12Months,20-09-2024,18%,3%,21%,by cash,,21-09-2023,100000,,,,,,100000,18000
+696,Others,Normal BDP,138,BUSSINESS LOAN,,Normal,16-05-2023,174000,12Months,15-05-2024,18%,3%,21%,by cash,,16-05-2023,174000,,,,,,174000,31320
+733,Others,Normal BDP,139,BUSSINESS LOAN,,Normal,02-01-2024,50000,12Months,01-01-2025,18%,3%,21%,by cash,,02-01-2024,50000,,,,,,50000,9000
+443,Others,Normal BDP,140,BUSSINESS LOAN,,Normal,06-02-2024,300000,12Months,05-02-2025,18%,3%,21%,by cash,,06-02-2024,300000,,,,,,300000,54000
+171,Others,Normal BDP,141,BUSSINESS LOAN,,Normal,14-02-2024,300000,12Months,13-02-2025,18%,3%,21%,by cash,,14-02-2024,300000,,,,,,300000,54000
+87,Others,Normal BDP,142,BUSSINESS LOAN,,Normal,02-06-2023,300000,12Months,01-06-2024,18%,3%,21%,by cash,,02-06-2023,300000,,,,,,300000,54000
+522,Others,Normal BDP,143,BUSSINESS LOAN,,Normal,02-06-2023,300000,12Months,01-06-2024,18%,3%,21%,by cash,,02-06-2023,300000,,,,,,300000,54000
+757,Others,Normal BDP,144,BUSSINESS LOAN,,Normal,22-02-2024,300000,12Months,21-02-2025,18%,3%,21%,by cash,,22-02-2024,300000,,,,,,300000,54000
+509,Others,Normal BDP,145,BUSSINESS LOAN,,Normal,30-06-2023,100000,12Months,29-06-2024,18%,3%,21%,by cash,,30-06-2023,100000,,,,,,100000,18000
+44,Others,Normal BDP,146,BUSSINESS LOAN,,Normal,07-07-2023,200000,12Months,06-07-2024,18%,3%,21%,by cash,,07-07-2023,200000,,,,,,200000,36000
+689,Others,Normal BDP,147,BUSSINESS LOAN,,Normal,07-07-2023,100000,12Months,06-07-2024,18%,3%,21%,by cash,,07-07-2023,100000,,,,,,100000,18000
+463,Others,Normal BDP,148,BUSSINESS LOAN,,Normal,17-07-2023,100000,12Months,16-07-2024,18%,3%,21%,by cash,,17-07-2023,100000,,,,,,100000,18000
+55,Others,Normal BDP,149,BUSSINESS LOAN,,Normal,21-03-2024,300000,12Months,21-03-2025,18%,3%,21%,by cash,,21-03-2024,300000,,,,,,300000,54000
+435,Others,Normal BDP,151,BUSSINESS LOAN,,Normal,02-01-2024,225000,12Months,01-01-2025,18%,3%,21%,by cash,,02-01-2024,225000,,,,,,225000,40500
+24,Others,Normal BDP,152,BUSSINESS LOAN,,Normal,03-01-2024,300000,12Months,02-01-2025,18%,3%,21%,by cash,,03-01-2024,300000,,,,,,300000,54000
+331,Others,Normal BDP,153,BUSSINESS LOAN,,Normal,08-01-2024,100000,12Months,07-01-2025,18%,3%,21%,by cash,,08-01-2024,100000,,,,,,100000,18000
+883,Others,Normal BDP,154,BUSSINESS LOAN,,Normal,29-01-2024,300000,12Months,28-01-2025,18%,3%,21%,by cash,,29-01-2024,300000,,,,,,300000,54000
+439,Others,Normal BDP,155,BUSSINESS LOAN,,Normal,06-02-2024,200000,12Months,05-02-2025,18%,3%,21%,by cash,,06-02-2024,200000,,,,,,200000,36000
+633,Others,Normal BDP,156,BUSSINESS LOAN,,Normal,20-02-2024,100000,12Months,19-02-2025,18%,3%,21%,by cash,,20-02-2024,100000,,,,,,100000,18000
+627,Others,Normal BDP,157,BUSSINESS LOAN,,Normal,22-02-2024,100000,12Months,21-02-2025,18%,3%,21%,by cash,,22-02-2024,100000,,,,,,100000,18000
+513,Others,Normal BDP,158,BUSSINESS LOAN,,Normal,01-03-2024,100000,12Months,01-03-2025,18%,3%,21%,by cash,,01-03-2024,100000,,,,,,100000,18000
+88,Others,Normal BDP,159,BUSSINESS LOAN,,Normal,22-03-2024,300000,12Months,22-03-2025,18%,3%,21%,by cash,,22-03-2024,300000,,,,,,300000,54000
+753,Others,Normal BDP,160,BUSSINESS LOAN,,Normal,30-03-2024,300000,12Months,30-03-2025,18%,3%,21%,by cash,,30-03-2024,300000,,,,,,300000,54000
+35,Others,Normal BDP,167,BUSSINESS LOAN,,Normal,13-09-2023,100000,12Months,12-09-2024,18%,3%,21%,by cash,,13-09-2023,100000,,,,,,100000,18000
+466,Others,Normal BDP,169,BUSSINESS LOAN,,Normal,02-03-2024,50000,12Months,02-03-2025,18%,3%,21%,by cash,,02-03-2024,50000,,,,,,50000,9000
+99,Others,Normal BDP,177,BUSSINESS LOAN,,Normal,01-06-2023,300000,12Months,31-05-2024,18%,3%,21%,by cash,,01-06-2023,300000,,,,,,300000,54000
+683,Others,Normal deposite loan,2,deposite loan,,Normal,12-03-2024,60000,12Months,12-03-2025,12%,3%,15%,by cash,,,,,,,,,60000,7200
+786,Others,Normal deposite loan,3,deposite loan,,Normal,29-11-2021,10000,12Months,29-11-2022,12%,3%,15%,by cash,,,,,,,,,10000,1200
+182,Others,Normal deposite loan,5,deposite loan,,Normal,19-04-2023,80000,12Months,18-04-2024,12%,3%,15%,by cash,,,,,,,,,80000,9600
+556,Others,Normal deposite loan,12,deposite loan,,Normal,05-02-2024,80000,12Months,04-02-2025,12%,3%,15%,by cash,,,,,,,,,80000,9600
+292,Others,NORMAL PIGMY LOAN,39,PIGMY LOAN,,Normal,19-06-2019,39000,12Months,18-06-2020,18%,3%,21%,by cash,,,,,,,,,39000,7020
+276,Others,NORMAL PIGMY LOAN,41,PIGMY LOAN,,Normal,25-09-2023,190000,12Months,24-09-2024,18%,3%,21%,by cash,,,,,,,,,190000,34200
+40,Others,NORMAL PIGMY LOAN,59,PIGMY LOAN,,Normal,13-04-2023,40000,12Months,12-04-2024,18%,3%,21%,by cash,,,,,,,,,40000,7200
+300,Others,NORMAL PIGMY LOAN,79,PIGMY LOAN,,Normal,17-03-2015,10000,12Months,16-03-2016,18%,3%,21%,by cash,,,,,,,,,10000,1800
+301,Others,NORMAL PIGMY LOAN,81,PIGMY LOAN,,Normal,16-03-2019,23500,12Months,15-03-2020,18%,3%,21%,by cash,,,,,,,,,23500,4230
+302,Others,NORMAL PIGMY LOAN,84,PIGMY LOAN,,Normal,29-11-2023,34000,12Months,28-11-2024,18%,3%,21%,by cash,,,,,,,,,34000,6120
+629,Others,NORMAL PIGMY LOAN,92,PIGMY LOAN,,Normal,20-01-2023,9000,12Months,20-01-2024,18%,3%,21%,by cash,,,,,,,,,9000,1620
+306,Others,NORMAL PIGMY LOAN,95,PIGMY LOAN,,Normal,26-03-2024,13000,12Months,26-03-2025,18%,3%,21%,by cash,,,,,,,,,13000,2340
+282,Others,NORMAL PIGMY LOAN,106,PIGMY LOAN,,Normal,02-03-2024,80000,12Months,02-03-2025,18%,3%,21%,by cash,,,,,,,,,80000,14400
+818,Others,NORMAL PIGMY LOAN,107,PIGMY LOAN,,Normal,29-04-2023,20000,12Months,28-04-2024,18%,3%,21%,by cash,,,,,,,,,20000,3600
+381,Others,NORMAL PIGMY LOAN,113,PIGMY LOAN,,Normal,29-01-2024,70000,12Months,28-01-2025,18%,3%,21%,by cash,,,,,,,,,70000,12600
+316,Others,NORMAL PIGMY LOAN,119,PIGMY LOAN,,Normal,08-02-2023,100000,12Months,08-02-2024,18%,3%,21%,by cash,,,,,,,,,100000,18000
+317,Others,NORMAL PIGMY LOAN,120,PIGMY LOAN,,Normal,29-02-2024,80000,12Months,28-02-2025,18%,3%,21%,by cash,,,,,,,,,80000,14400
+268,Others,NORMAL PIGMY LOAN,124,PIGMY LOAN,,Normal,04-12-2020,145000,12Months,04-12-2021,18%,3%,21%,by cash,,,,,,,,,145000,26100
+285,Others,NORMAL PIGMY LOAN,125,PIGMY LOAN,,Normal,19-04-2023,110000,12Months,18-04-2024,18%,3%,21%,by cash,,,,,,,,,110000,19800
+320,Others,NORMAL PIGMY LOAN,127,PIGMY LOAN,,Normal,04-12-2023,20000,12Months,03-12-2024,18%,3%,21%,by cash,,,,,,,,,20000,3600
+313,Others,NORMAL PIGMY LOAN,129,PIGMY LOAN,,Normal,31-12-2018,5000,12Months,31-12-2019,18%,3%,21%,by cash,,,,,,,,,5000,900
+281,Others,NORMAL PIGMY LOAN,130,PIGMY LOAN,,Normal,06-01-2024,25000,12Months,05-01-2025,18%,3%,21%,by cash,,,,,,,,,25000,4500
+363,Others,NORMAL PIGMY LOAN,133,PIGMY LOAN,,Normal,22-09-2023,45000,12Months,21-09-2024,18%,3%,21%,by cash,,,,,,,,,45000,8100
+322,Others,NORMAL PIGMY LOAN,136,PIGMY LOAN,,Normal,30-03-2024,25000,12Months,30-03-2025,18%,3%,21%,by cash,,,,,,,,,25000,4500
+476,Others,NORMAL PIGMY LOAN,138,PIGMY LOAN,,Normal,27-02-2023,65000,12Months,27-02-2024,18%,3%,21%,by cash,,,,,,,,,65000,11700
+394,Others,NORMAL PIGMY LOAN,141,PIGMY LOAN,,Normal,28-03-2023,4000,12Months,27-03-2024,18%,3%,21%,by cash,,,,,,,,,4000,720
+364,Others,NORMAL PIGMY LOAN,145,PIGMY LOAN,,Normal,08-06-2023,100000,12Months,07-06-2024,18%,3%,21%,by cash,,,,,,,,,100000,18000
+508,Others,NORMAL PIGMY LOAN,152,PIGMY LOAN,,Normal,21-09-2023,175000,12Months,20-09-2024,18%,3%,21%,by cash,,,,,,,,,175000,31500
+529,Others,NORMAL PIGMY LOAN,154,PIGMY LOAN,,Normal,28-03-2023,50000,12Months,27-03-2024,18%,3%,21%,by cash,,,,,,,,,50000,9000
+279,Others,NORMAL PIGMY LOAN,155,PIGMY LOAN,,Normal,19-03-2024,19000,12Months,19-03-2025,18%,3%,21%,by cash,,,,,,,,,19000,3420
+533,Others,NORMAL PIGMY LOAN,156,PIGMY LOAN,,Normal,03-07-2023,200000,12Months,02-07-2024,18%,3%,21%,by cash,,,,,,,,,200000,36000
+507,Others,NORMAL PIGMY LOAN,159,PIGMY LOAN,,Normal,22-03-2024,24000,12Months,22-03-2025,18%,3%,21%,by cash,,,,,,,,,24000,4320
+525,Others,NORMAL PIGMY LOAN,160,PIGMY LOAN,,Normal,22-02-2024,49000,12Months,21-02-2025,18%,3%,21%,by cash,,,,,,,,,49000,8820
+524,Others,NORMAL PIGMY LOAN,161,PIGMY LOAN,,Normal,22-02-2024,100000,12Months,21-02-2025,18%,3%,21%,by cash,,,,,,,,,100000,18000
+583,Others,NORMAL PIGMY LOAN,162,PIGMY LOAN,,Normal,04-12-2023,100000,12Months,03-12-2024,18%,3%,21%,by cash,,,,,,,,,100000,18000
+501,Others,NORMAL PIGMY LOAN,164,PIGMY LOAN,,Normal,31-05-2023,196000,12Months,30-05-2024,18%,3%,21%,by cash,,,,,,,,,196000,35280
+622,Others,NORMAL PIGMY LOAN,165,PIGMY LOAN,,Normal,12-03-2024,100000,12Months,12-03-2025,18%,3%,21%,by cash,,,,,,,,,100000,18000
+596,Others,NORMAL PIGMY LOAN,166,PIGMY LOAN,,Normal,12-03-2024,100000,12Months,12-03-2025,18%,3%,21%,by cash,,,,,,,,,100000,18000
+615,Others,NORMAL PIGMY LOAN,168,PIGMY LOAN,,Normal,30-03-2024,50000,12Months,30-03-2025,18%,3%,21%,by cash,,,,,,,,,50000,9000
+356,Others,NORMAL PIGMY LOAN,170,PIGMY LOAN,,Normal,05-10-2023,50000,12Months,04-10-2024,18%,3%,21%,by cash,,,,,,,,,50000,9000
+558,Others,NORMAL PIGMY LOAN,171,PIGMY LOAN,,Normal,03-07-2023,74000,12Months,02-07-2024,18%,3%,21%,by cash,,,,,,,,,74000,13320
+668,Others,NORMAL PIGMY LOAN,173,PIGMY LOAN,,Normal,12-03-2024,100000,12Months,12-03-2025,18%,3%,21%,by cash,,,,,,,,,100000,18000
+504,Others,NORMAL PIGMY LOAN,175,PIGMY LOAN,,Normal,28-03-2024,50000,12Months,28-03-2025,18%,3%,21%,by cash,,,,,,,,,50000,9000
+568,Others,NORMAL PIGMY LOAN,176,PIGMY LOAN,,Normal,11-03-2024,12000,12Months,11-03-2025,18%,3%,21%,by cash,,,,,,,,,12000,2160
+607,Others,NORMAL PIGMY LOAN,177,PIGMY LOAN,,Normal,06-01-2024,100000,12Months,05-01-2025,18%,3%,21%,by cash,,,,,,,,,100000,18000
+531,Others,NORMAL PIGMY LOAN,178,PIGMY LOAN,,Normal,12-05-2023,30000,12Months,11-05-2024,18%,3%,21%,by cash,,,,,,,,,30000,5400
+597,Others,NORMAL PIGMY LOAN,179,PIGMY LOAN,,Normal,19-03-2024,37000,12Months,19-03-2025,18%,3%,21%,by cash,,,,,,,,,37000,6660
+652,Others,NORMAL PIGMY LOAN,180,PIGMY LOAN,,Normal,22-02-2024,23000,12Months,21-02-2025,18%,3%,21%,by cash,,,,,,,,,23000,4140
+510,Others,NORMAL PIGMY LOAN,181,PIGMY LOAN,,Normal,08-11-2023,13000,12Months,07-11-2024,18%,3%,21%,by cash,,,,,,,,,13000,2340
+643,Others,NORMAL PIGMY LOAN,182,PIGMY LOAN,,Normal,31-01-2024,54000,12Months,30-01-2025,18%,3%,21%,by cash,,,,,,,,,54000,9720
+780,Others,NORMAL PIGMY LOAN,183,PIGMY LOAN,,Normal,31-03-2023,200000,12Months,30-03-2024,18%,3%,21%,by cash,,,,,,,,,200000,36000
+783,Others,NORMAL PIGMY LOAN,184,PIGMY LOAN,,Normal,20-01-2023,52000,12Months,20-01-2024,18%,3%,21%,by cash,,,,,,,,,52000,9360
+749,Others,NORMAL PIGMY LOAN,186,PIGMY LOAN,,Normal,19-03-2024,50000,12Months,19-03-2025,18%,3%,21%,by cash,,,,,,,,,50000,9000
+816,Others,NORMAL PIGMY LOAN,187,PIGMY LOAN,,Normal,03-10-2023,13000,12Months,02-10-2024,18%,3%,21%,by cash,,,,,,,,,13000,2340
+842,Others,NORMAL PIGMY LOAN,189,PIGMY LOAN,,Normal,08-01-2024,25000,12Months,07-01-2025,18%,3%,21%,by cash,,,,,,,,,25000,4500
+802,Others,NORMAL PIGMY LOAN,190,PIGMY LOAN,,Normal,30-03-2024,60000,12Months,30-03-2025,18%,3%,21%,by cash,,,,,,,,,60000,10800
+736,Others,NORMAL PIGMY LOAN,191,PIGMY LOAN,,Normal,23-01-2024,70000,12Months,22-01-2025,18%,3%,21%,by cash,,,,,,,,,70000,12600
+601,Others,NORMAL PIGMY LOAN,192,PIGMY LOAN,,Normal,02-02-2024,185000,12Months,01-02-2025,18%,3%,21%,by cash,,,,,,,,,185000,33300
+528,Others,NORMAL PIGMY LOAN,193,PIGMY LOAN,,Normal,22-02-2024,29000,12Months,21-02-2025,18%,3%,21%,by cash,,,,,,,,,29000,5220
+561,Others,NORMAL PIGMY LOAN,194,PIGMY LOAN,,Normal,16-05-2023,30000,12Months,15-05-2024,18%,3%,21%,by cash,,,,,,,,,30000,5400
+657,Others,NORMAL PIGMY LOAN,195,PIGMY LOAN,,Normal,11-12-2023,20000,12Months,10-12-2024,18%,3%,21%,by cash,,,,,,,,,20000,3600
+866,Others,NORMAL PIGMY LOAN,196,PIGMY LOAN,,Normal,23-01-2024,10000,12Months,22-01-2025,18%,3%,21%,by cash,,,,,,,,,10000,1800

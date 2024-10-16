@@ -1,0 +1,403 @@
+CREATE TABLE term_deposits_raw(
+admission_no INT(11) NOT NULL DEFAULT 0,
+product VARCHAR(100) NOT NULL DEFAULT '',
+deposit_type VARCHAR(100) NOT NULL DEFAULT '',
+account_no VARCHAR(100) NOT NULL DEFAULT '',
+operation_type VARCHAR(100) NOT NULL DEFAULT '',
+deposit_date VARCHAR(100) NOT NULL DEFAULT '',
+deposit_amount VARCHAR(100) NOT NULL DEFAULT '',
+interest_installment_mode VARCHAR(100) NOT NULL DEFAULT '',
+term_in_days VARCHAR(100) NOT NULL DEFAULT '',
+term_in_months VARCHAR(100) NOT NULL DEFAULT '',
+rate_of_interest VARCHAR(100) NOT NULL DEFAULT '',
+interest_amount VARCHAR(100) NOT NULL DEFAULT '',
+maturity_amount VARCHAR(100) NOT NULL DEFAULT '',
+maturity_date VARCHAR(100) NOT NULL DEFAULT '',
+ledger_folio_no VARCHAR(100) NOT NULL DEFAULT '',
+installments_paid VARCHAR(100) NOT NULL DEFAULT '',
+total_installment_amount_paid VARCHAR(100) NOT NULL DEFAULT '',
+interest_payable_required VARCHAR(100) NOT NULL DEFAULT '',
+total_interest_amount VARCHAR(100) NOT NULL DEFAULT '',
+last_interest_posting_date VARCHAR(100) NOT NULL DEFAULT '',
+in_interest_add_to_deposit VARCHAR(100) NOT NULL DEFAULT '',
+last_paid_instalment_date VARCHAR(100) NOT NULL DEFAULT '')
+ENGINE = InnoDB CHARSET = utf8;
+
+CREATE TABLE term_deposits(
+admission_no INT(11) NOT NULL DEFAULT 0,
+product VARCHAR(100) NOT NULL DEFAULT '',
+deposit_type VARCHAR(100) NOT NULL DEFAULT '',
+account_no VARCHAR(100) NOT NULL DEFAULT '',
+operation_type VARCHAR(100) NOT NULL DEFAULT '',
+deposit_date  DATE NOT NULL ,
+deposit_amount VARCHAR(100) NOT NULL DEFAULT '',
+interest_installment_mode VARCHAR(100) NOT NULL DEFAULT '',
+term_in_days VARCHAR(100) NOT NULL DEFAULT '',
+term_in_months VARCHAR(100) NOT NULL DEFAULT '',
+rate_of_interest VARCHAR(100) NOT NULL DEFAULT '',
+interest_amount VARCHAR(100) NOT NULL DEFAULT '',
+maturity_amount VARCHAR(100) NOT NULL DEFAULT '',
+maturity_date DATE NOT NULL ,
+ledger_folio_no VARCHAR(100) NOT NULL DEFAULT '',
+installments_paid VARCHAR(100) NOT NULL DEFAULT '',
+total_installment_amount_paid VARCHAR(100) NOT NULL DEFAULT '',
+interest_payable_required VARCHAR(100) NOT NULL DEFAULT '',
+total_interest_amount VARCHAR(100) NOT NULL DEFAULT '',
+last_interest_posting_date DATE NOT NULL ,
+in_interest_add_to_deposit VARCHAR(100) NOT NULL DEFAULT '',
+last_paid_instalment_date DATE NOT NULL )
+ENGINE = InnoDB CHARSET = utf8;
+
+
+TRUNCATE TABLE term_deposits;
+
+ALTER TABLE term_deposits ADD INDEX idx_admission_no(admission_no);
+ALTER TABLE term_deposits ADD INDEX idx_product(product);
+ALTER TABLE term_deposits ADD INDEX idx_deposit_date(deposit_date);
+ALTER TABLE term_deposits ADD INDEX idx_deposit_amount(deposit_amount);
+ALTER TABLE term_deposits ADD INDEX idx_maturity_date(maturity_date);
+
+
+INSERT INTO term_deposits SELECT
+	admission_no,
+	product,
+	deposit_type,
+	account_no,
+	operation_type,
+	STR_TO_DATE(deposit_date,'%d-%m-%Y'),
+	deposit_amount,
+	interest_installment_mode,
+	term_in_days,
+	term_in_months,
+	rate_of_interest,
+	interest_amount,
+	maturity_amount,
+	STR_TO_DATE(maturity_date,'%d-%m-%Y'),
+	ledger_folio_no,
+	installments_paid,
+	total_installment_amount_paid,
+	interest_payable_required,
+	total_interest_amount,
+	STR_TO_DATE(last_interest_posting_date,'%d-%m-%Y'),
+	in_interest_add_to_deposit,
+	STR_TO_DATE(last_paid_instalment_date,'%d-%m-%Y')
+FROM
+	term_deposits_raw; 
+
+
+SELECT COUNT(admission_no), COUNT(1) FROM term_deposits;
+SELECT COUNT(admission_no), COUNT(1) FROM term_deposits;
+SELECT product, COUNT(1), SUM(sanction_amount), SUM(outstanding_principal_rs)  FROM term_deposits GROUP BY product;
+
+
+
+
+//Check all the admission no are present in the term_deposits from the member details table
+SELECT 
+	t1.admission_no,
+	t2.admission_no
+FROM
+	term_deposits AS t1
+INNER JOIN
+	member_details_janawad AS t2
+ON
+	t1.admission_no = t2.admission_no LIMIT 10;
+
+SELECT 
+	COUNT(t1.admission_no),
+	COUNT(t2.admission_no)
+FROM
+	term_deposits AS t1
+INNER JOIN
+	member_details_janawad AS t2
+ON
+	t1.admission_no = t2.admission_no LIMIT 10;
+
+SELECT 
+	DISTINCT t1.admission_no,
+	t2.admission_no
+FROM
+	term_deposits AS t1
+LEFT JOIN
+	member_details_janawad AS t2
+ON
+	t1.admission_no = t2.admission_no
+WHERE
+	t2.admission_no IS NULL
+LIMIT 10;
+
+SELECT 
+	COUNT(DISTINCT t1.admission_no),
+	COUNT(DISTINCT t2.admission_no)
+FROM
+	term_deposits AS t1
+RIGHT JOIN
+	member_details_janawad AS t2
+ON
+	t1.admission_no = t2.admission_no
+WHERE
+	t1.admission_no IS NULL;
+
+SELECT 
+	DISTINCT t1.admission_no,
+	t2.admission_no
+FROM
+	term_deposits AS t1
+RIGHT JOIN
+	member_details_janawad AS t2
+ON
+	t1.admission_no = t2.admission_no
+WHERE
+	t1.admission_no IS NULL
+LIMIT 10;
+//Check all the admission no are present in the term_deposits from the member details table
+
+//Check admission date is greater than sanction date
+
+SELECT 
+	t1.admission_no,
+	t2.admission_date,
+	t1.deposit_date
+FROM
+	term_deposits AS t1
+INNER JOIN
+	member_details_janawad AS t2
+ON
+	t1.admission_no = t2.admission_no
+WHERE
+	t2.admission_date > t1.deposit_date
+
+UPDATE member_details_janawad t, (SELECT 
+	t1.admission_no,
+	t2.admission_date,
+	t1.deposit_date
+FROM
+	term_deposits AS t1
+INNER JOIN
+	member_details_janawad AS t2
+ON
+	t1.admission_no = t2.admission_no
+WHERE
+	t2.admission_date > t1.deposit_date) as s SET t.admission_date = s.deposit_date WHERE t.admission_no = s.admission_no;
+
+
+
+UPDATE term_deposits SET deposit_date = '2016-08-26' WHERE admission_no = 1641;
+UPDATE term_deposits SET deposit_date = '2018-11-09' WHERE admission_no = 102765;
+UPDATE term_deposits SET deposit_date = '2020-04-01' WHERE admission_no = 1972;
+UPDATE term_deposits SET deposit_date = '2023-05-20' WHERE admission_no = 103198;
+
+SELECT DISTINCT deposit_type FROM term_deposits LIMIT 10;
+
+UPDATE term_deposits SET deposit_type = 'Non-Cumulative' WHERE deposit_type = 'Non-Cumulative';
+
+SELECT DISTINCT product FROM term_deposits LIMIT 10;
+
+UPDATE term_deposits SET product = 'Term Deposit Non Cummulative' WHERE product = 'Term Deposit Non Cummulative';
+
+
+SELECT DISTINCT operation_type FROM term_deposits LIMIT 10;
+
+UPDATE term_deposits SET operation_type = 'Single' WHERE operation_type = 'Single';
+
+
+
+
+ProductDescription	AdmissionNo	AccountNo	OperationTypeDesc	DepositDate	DepositAmount	TerminDays	TerminMonths	MaturityDate	MaturityAmount	RateOfInterest	Status	PacsIDPkey	LedgerFolioNo	DepositTypeDesc	InterestAmount	InstallmentAmount	InterestPaymentModeDesc	InstallmentsPaid	TotalInstallmentAmountPaid	LastPaidInstallDate	IsInterestPosted	chkIsInterestPostingToCB	LastInterestPostingDate	TotalInterestAmount	JointAdmissionNo
+
+
+
+
+admission_no, product, deposit_type, account_no, operation_type, deposit_date, deposit_amount, interest_installment_mode, term_in_days, term_in_months, rate_of_interest, interest_amount, maturity_amount, maturity_date, ledger_folio_no, installments_paid, total_installment_amount_paid, interest_payable_required, total_interest_amount, last_interest_posting_date, in_interest_add_to_deposit, last_paid_instalment_date)
+ENGINE = InnoDB CHARSET = utf8;
+
+SELECT COUNT(1) FROM term_deposits WHERE interest_amount = 0;
+UPDATE term_deposits SET interest_amount = '' WHERE interest_amount = 0;
+
+SELECT DISTINCT interest_installment_mode FROM term_deposits;
+
+UPDATE term_deposits SET interest_installment_mode = 'Monthly' WHERE interest_installment_mode = 'Monthly';
+UPDATE term_deposits SET interest_installment_mode = 'Yearly' WHERE interest_installment_mode = 'Yearly';
+
+SELECT deposit_date, DATE_ADD(deposit_date,INTERVAL term_in_months MONTH) FROM term_deposits LIMIT 10;
+SELECT
+	product AS ProductDescription,
+	admission_no AS AdmissionNo,
+	account_no AS AccountNo,
+	operation_type AS OperationTypeDesc,
+	deposit_date AS DepositDate,
+	deposit_amount AS DepositAmount,
+	'' AS TerminDays,
+	term_in_months AS TerminMonths,
+	DATE_ADD(deposit_date,INTERVAL term_in_months MONTH) AS MaturityDate,
+	maturity_amount AS MaturityAmount,
+	rate_of_interest AS RateOfInterest,
+	'Active' AS Status,
+	'91150108064001' AS PacsIDPkey,
+	ledger_folio_no AS LedgerFolioNo,
+	deposit_type AS DepositTypeDesc,
+	interest_amount AS InterestAmount,
+	interest_amount AS InstallmentAmount,
+	interest_installment_mode AS InterestPaymentModeDesc,
+	installments_paid AS InstallmentsPaid,
+	total_installment_amount_paid AS TotalInstallmentAmountPaid,
+	'' AS LastPaidInstallDate,
+	'No' AS IsInterestPosted,
+	'' AS chkIsInterestPostingToCB,
+	'' AS LastInterestPostingDate,
+	'' AS TotalInterestAmount,
+	'' AS JointAdmissionNo
+FROM	
+	term_deposits
+WHERE
+	product = 'Long Term Agri Loans' ;
+SlNo	AdmissionNo	ProductDescription	LoanNo	Scheme	PurposeDescription	SanctionedDate	SanctionedAmount	RepaymentFrequency	LoanPeriod	GestationPeriod	FirstInstallmentDate	InstallmentAmount	DueDate	ROIPercentage	PenalROIPercentage	IODPercentage	LANo	LCNo	LCDate	DCCBLoanAccountNo	OutstandingPrincipal	OutstandingInterest	PacsId	BranchId
+
+UPDATE term_deposits SET repayment_mode = 'Quarterly' WHERE repayment_mode = '';
+
+UPDATE term_deposits SET repayment_mode = 'Quarterly' WHERE repayment_mode = 'Quarterly';
+
+UPDATE term_deposits SET gestation_period = '0' WHERE gestation_period = '';
+
+SELECT
+	'' AS SlNo,
+	admission_no AS AdmissionNo,
+	product AS ProductDescription,
+	loan_no AS LoanNo,
+	scheme AS Scheme,
+	crop_purpose AS PurposeDescription,
+	sanction_date AS SanctionedDate,
+	sanction_amount AS SanctionedAmount,
+	repayment_mode AS RepaymentFrequency,
+	loan_period_in_months AS LoanPeriod,
+	gestation_period AS GestationPeriod,
+	first_installment_due_date AS FirstInstallmentDate,
+	installment_amount AS InstallmentAmount,
+	due_date AS DueDate,
+	roi AS ROIPercentage,
+	penal_roi AS PenalROIPercentage,
+	roi_after_due_date AS IODPercentage,
+	la_no AS LANo,
+	lc_no AS LCNo,
+	lc_date AS LCDate,
+	dccb_no AS DCCBLoanAccountNo,
+	outstanding_principal_rs AS OutstandingPrincipal,
+	outstanding_interest_rs AS OutstandingInterest,
+	'91150108064001' AS PacsId,
+	'' AS BranchId
+FROM	
+	term_deposits
+WHERE
+	product = 'Long Term Agri Loans' ;
+
+SELECT DISTINCT product FROM term_deposits;	
+SELECT
+	'' AS SlNo,
+	admission_no AS AdmissionNo,
+	product AS ProductDescription,
+	loan_no AS LoanNo,
+	scheme AS Scheme,
+	crop_purpose AS PurposeDescription,
+	sanction_date AS SanctionedDate,
+	sanction_amount AS SanctionedAmount,
+	repayment_mode AS RepaymentFrequency,
+	loan_period_in_months AS LoanPeriod,
+	gestation_period AS GestationPeriod,
+	first_installment_due_date AS FirstInstallmentDate,
+	installment_amount AS InstallmentAmount,
+	due_date AS DueDate,
+	roi AS ROIPercentage,
+	penal_roi AS PenalROIPercentage,
+	roi_after_due_date AS IODPercentage,
+	la_no AS LANo,
+	lc_no AS LCNo,
+	lc_date AS LCDate,
+	dccb_no AS DCCBLoanAccountNo,
+	outstanding_principal_rs AS OutstandingPrincipal,
+	outstanding_interest_rs AS OutstandingInterest,
+	'91150108064001' AS PacsId,
+	'' AS BranchId
+FROM	
+	term_deposits
+WHERE
+	product = 'Medium Term Agri Loans';
+
+
+UPDATE term_deposits  SET roi = 15, penal_roi = 3, roi_after_due_date = 18, loan_period_in_months = 12 WHERE product = 'Salary Loan Others OL';
+SELECT
+	'' AS SlNo,
+	product AS ProductDescription,
+	admission_no AS AdmissionNo,
+	loan_no AS LoanNo,
+	crop_purpose AS PurposeDescription,
+	sanction_date AS SanctionedDate,
+	sanction_amount AS SanctionedAmount,
+	loan_period_in_months AS LoanPeriod,
+	due_date AS DueDate,
+	roi AS ROI,
+	penal_roi AS PenalROI,
+	roi_after_due_date AS IOD,
+	ledger_folio_no LedgerFolioNo,
+	outstanding_principal_rs AS OutstandingPrincipal,
+	outstanding_interest_rs AS OutstandingInterest,
+	'91150108064001' AS PacsId,
+	'' AS BranchId
+FROM	
+	term_deposits
+WHERE
+	product = 'Long Term Agri Loans' 
+
+
+//Disperse	
+SELECT
+	
+	admission_no AS AdmissionNo,
+	product AS ProductDescription,
+	loan_no AS LoanNo,
+	sanction_date AS TransactionDate,
+	ledger_folio_no AS LedgerFolioNo,
+	sanction_amount AS DisbursementAmount,
+	'0' AS OtherChargesDebitAmount,
+	'0' AS CollectedPrincipal,
+	'0' AS CollectedInterest,
+	'0' AS CollectedPenalInterest,
+	'0' AS CollectedIOD,
+	'0' AS CollectedOthers,
+	outstanding_principal_rs AS BalancePrincipal,
+	outstanding_interest_rs AS BalanceInterest,
+	'0' AS BalancePenalInterest,
+	'0' AS BalanceIOD,
+	'0' AS Charges,
+	'91150108064001' AS PacsId,
+	'' AS BranchId
+FROM	
+	term_deposits
+WHERE
+	product = 'Small Business Development Loan';
+	
+SELECT
+	
+	admission_no AS AdmissionNo,
+	product AS ProductDescription,
+	loan_no AS LoanNo,
+	sanction_date AS TransactionDate,
+	ledger_folio_no AS LedgerFolioNo,
+	sanction_amount AS DisbursementAmount,
+	'0' AS OtherChargesDebitAmount,
+	'0' AS CollectedPrincipal,
+	'0' AS CollectedInterest,
+	'0' AS CollectedPenalInterest,
+	'0' AS CollectedIOD,
+	'0' AS CollectedOthers,
+	outstanding_principal_rs AS BalancePrincipal,
+	outstanding_interest_rs AS BalanceInterest,
+	'0' AS BalancePenalInterest,
+	'0' AS BalanceIOD,
+	'0' AS Charges,
+	'91150108064001' AS PacsId,
+	'' AS BranchId
+FROM	
+	term_deposits
+WHERE
+	product = 'Salary Loan Others OL ';
+

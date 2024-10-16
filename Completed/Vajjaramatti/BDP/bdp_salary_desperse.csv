@@ -1,0 +1,6 @@
+"AdmissionNo","ProductDescription","LoanNo","TransactionDate","LedgerFolioNo","DisbursementAmount","OtherChargesDebitAmount","CollectedPrincipal","CollectedInterest","CollectedPenalInterest","CollectedIOD","CollectedOthers","BalancePrincipal","BalanceInterest","BalancePenalInterest","BalanceIOD","Charges","PacsId","BranchId"
+"368","Salary Loan Others OL ","1","2023-04-01","1","3,59,387.00 ","0","0","0","0","0","0","1,93,890.00 ","0","0","0","0","91150108064001",
+"1585","Salary Loan Others OL ","4","2023-04-01","1","2,17,932.00 ","0","0","0","0","0","0","1,82,887.00 ","0","0","0","0","91150108064001",
+"1543","Salary Loan Others OL ","5","2023-04-01","1","1,11,120.00 ","0","0","0","0","0","0","1,63,005.00 ","0","0","0","0","91150108064001",
+"2067","Salary Loan Others OL ","6","2023-04-01","1","2,17,932.00 ","0","0","0","0","0","0","1,70,992.00 ","0","0","0","0","91150108064001",
+"1270","Salary Loan Others OL ","7","2023-04-01","1","2,22,242.00 ","0","0","0","0","0","0","37,780.00 ","0","0","0","0","91150108064001",

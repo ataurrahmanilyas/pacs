@@ -1,0 +1,10 @@
+AdmissionNo,ProductDescription,LoanNo,TransactionDate,LedgerFolioNo,DisbursementAmount,OtherChargesDebitAmount,CollectedPrincipal,CollectedInterest,CollectedPenalInterest,CollectedIOD,CollectedOthers,BalancePrincipal,BalanceInterest,BalancePenalInterest,BalanceIOD,Charges,PacsId,BranchId
+727,Long Term Agri Loans,4,01-07-2019,2,"9,00,000.00",0,0,0,0,0,0,"5,00,000.00",0,0,0,0,91150108064001,
+69,Long Term Agri Loans,5,08-08-2019,2,"8,50,000.00",0,0,0,0,0,0,"4,25,000.00",0,0,0,0,91150108064001,
+606,Long Term Agri Loans,6,11-09-2020,2,"7,00,000.00",0,0,0,0,0,0,"2,10,000.00",0,0,0,0,91150108064001,
+725,Long Term Agri Loans,7,08-10-2020,2,"9,00,000.00",0,0,0,0,0,0,"3,60,000.00",0,0,0,0,91150108064001,
+103,Long Term Agri Loans,8,27-10-2020,2,"9,00,000.00",0,0,0,0,0,0,"3,60,000.00",0,0,0,0,91150108064001,
+1806,Long Term Agri Loans,9,16-04-2021,2,"6,00,000.00",0,0,0,0,0,0,"3,00,000.00",0,0,0,0,91150108064001,
+1974,Long Term Agri Loans,5,26-07-2019,2,"9,00,000.00",0,0,0,0,0,0,"4,00,000.00",0,0,0,0,91150108064001,
+1366,Long Term Agri Loans,6,28-05-2020,2,"6,00,000.00",0,0,0,0,0,0,"4,00,002.00",0,0,0,0,91150108064001,
+2457,Long Term Agri Loans,8,21-02-2023,2,"9,00,000.00",0,0,0,0,0,0,"4,50,000.00",0,0,0,0,91150108064001,
